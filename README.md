@@ -4,6 +4,12 @@ Hide contextmenu items in Firefox 57+
 
 https://www.reddit.com/r/firefox/comments/7dvtw0/guide_how_to_edit_your_context_menu/
 
+---
+
+---
+
+---
+
 **Step by step guide on how to edit the context menu of Firefox 57+**
 
 First, **get the CSS selectors** of the elements you want to edit.
