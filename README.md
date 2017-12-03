@@ -22,8 +22,6 @@ To **remove entries from the context menu** you need to
 **Activate** option: Remove `/*` at the beginning of the line  
 **Deactivate** option: Add `/*` at the beginning of the line
 
-Mind that the **last active** option **must not have** a trailing comma for [correct syntax](http://www.htmldog.com/guides/css/intermediate/grouping/).  
-
 Edit [...]-context.css to modify context menu:
 
 * `blank-context.css`	when right-clicking on a blank area or text

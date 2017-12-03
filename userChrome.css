@@ -2,11 +2,11 @@
 
 /*** simpleMenuWizard ***/
 /* When right-clicking on... */
-@import url("./simpleMenuWizard/blank-context.css");	/* ...a blank area on a webpage */
-@import url("./simpleMenuWizard/frame-context.css");	/* ...an iframe */
-@import url("./simpleMenuWizard/image-context.css");	/* ...an image */
-@import url("./simpleMenuWizard/input-context.css");	/* ...an input-field */
-@import url("./simpleMenuWizard/link-context.css");		/* ...a link */
-@import url("./simpleMenuWizard/media-context.css");	/* ...a playing media like audio or html5 video */
-@import url("./simpleMenuWizard/select-context.css");	/* ...selected text or selected object */
-@import url("./simpleMenuWizard/tab-context.css");		/* ...a tab */
+@import url("./simpleMenuWizard/blank-context.css");  /* ...a blank area on a webpage */
+@import url("./simpleMenuWizard/frame-context.css");  /* ...an iframe */
+@import url("./simpleMenuWizard/image-context.css");  /* ...an image */
+@import url("./simpleMenuWizard/input-context.css");  /* ...an input-field */
+@import url("./simpleMenuWizard/link-context.css");	  /* ...a link */
+@import url("./simpleMenuWizard/media-context.css");  /* ...a playing media like audio or html5 video */
+@import url("./simpleMenuWizard/select-context.css"); /* ...selected text or selected object */
+@import url("./simpleMenuWizard/tab-context.css");    /* ...a tab */

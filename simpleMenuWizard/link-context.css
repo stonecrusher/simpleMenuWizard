@@ -3,25 +3,26 @@
 /*********************************************************************************************
   simpleMenuWizard: Firefox 57+ userChrome.css tweaks to remove context menu items.
   https://github.com/stonecrusher/simpleMenuWizard
-	
+    
 **********************************************************************************************
 
 /* link-context.css */
 
-/* #context-openlinkintab,				/* Open Link in New Tab */
-/* #context-openlinkinusercontext-menu,	/* Open Link in New Container Tab */
-/* #context-openlink,					/* Open Link in New Window */
-/* #context-openlinkprivate,			/* Open Link in New Private Window */
-/* #context-sep-open,					/******* Separator *******/
-/* #context-bookmarklink,				/* Bookmark This Link */
-/* #context-savelink,					/* Save Link As... */
-/* #context-savelinktopocket,			/* Save Link to Pocket */
-/* #context-copylink,					/* Copy Link Location */
-/* #context-searchselect,				/* Search [Google] for "[selected]" */
-/* #context-sep-sendlinktodevice,		/******* Separator *******/
-/* #context-sendlinktodevice,			/* Send Link to Device */
-/* #inspect-separator,					/******* Separator *******/
-/* #context-inspect,					/* Inspect Element (Q) */
-/* #context-contentAreaContextMenu > menuseparator:nth-child(92), /** Separator **/
-/* #ublock0_raymondhill_net_uBlock0-blockElement	/* Block element (by uBlock addon) */
-	{ display:none !important; }
+/* #context-openlinkintab,              /* Open Link in New Tab */
+/* #context-openlinkinusercontext-menu, /* Open Link in New Container Tab */
+/* #context-openlink,                   /* Open Link in New Window */
+/* #context-openlinkprivate,            /* Open Link in New Private Window */
+/* #context-sep-open,                   /******* Separator *******/
+/* #context-bookmarklink,               /* Bookmark This Link */
+/* #context-savelink,                   /* Save Link As... */
+/* #context-savelinktopocket,           /* Save Link to Pocket */
+/* #context-copylink,                   /* Copy Link Location */
+/* #context-searchselect,               /* Search [Google] for "[selected]" */
+/* #context-sep-sendlinktodevice,       /******* Separator *******/
+/* #context-sendlinktodevice,           /* Send Link to Device */
+/* #inspect-separator,                  /******* Separator *******/
+/* #context-inspect,                    /* Inspect Element (Q) */
+/* #context-contentAreaContextMenu > menuseparator:nth-child(92),  /** Separator **/
+/* #ublock0_raymondhill_net_uBlock0-blockElement,  /* Block element (by uBlock addon) */
+#leave_this_dummy_here
+    { display:none !important; }
