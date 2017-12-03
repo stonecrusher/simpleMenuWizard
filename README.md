@@ -22,19 +22,25 @@ Mind that the **last active** option **must not have** a trailing comma for [cor
 
 Edit [...]-context.css to modify context menu:
 
-* `blank-context.css`	when right-clicking on a blank area on a webpage  
+* `blank-context.css`	when right-clicking on a blank area or text
 * `frame-context.css` when right-clicking on an iframe  
 * `image-context.css` when right-clicking on an image  
 * `input-context.css` when right-clicking on an input-field  
 * `link-context.css` when right-clicking on a link  
-* `media-context.css` when right-clicking on a playing media like audio or html5 video  
-* `select-context.css` when right-clicking on selected text or selected object  
+* `media-context.css` when right-clicking on media like audio or html5 video  
+* `select-context.css` when right-clicking on selected text or object  
 * `tab-context.css` when right-clicking on a tab  
 
 Items that appear in different contexts with same ID will disappear in all contexts when activated.
 
+## To do
+Context menus not included yet:
+* Right click anywhere in adress bar
+* Right click in sidebar (bookmarks + history)
+* Left click on (main) hamburger menu
+
 ## Contribute
-For bugreports and missing items you're welcome to [open an issue here](https://github.com/stonecrusher/simpleMenuWizard/issues).
+For bugreports and missing items you're welcome to [open an issue here](https://github.com/stonecrusher/simpleMenuWizard/issues) or make a pull request.
 
 ## Links
 A great repository for modifications of the Firefox 57+ UI is [CustomCSSforFx](https://github.com/Aris-t2/CustomCSSforFx) by Aris
