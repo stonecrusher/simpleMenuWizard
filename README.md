@@ -10,13 +10,13 @@ To **remove entries from the context menu** you need to
 
 1. Find your **profile folder**: Address bar > Enter `about:support` > Click `Open Folder`.
 
-2. [Download](https://github.com/stonecrusher/simpleMenuWizard/archive/master.zip) and unzip this project.
+2. [Download this project](https://github.com/stonecrusher/simpleMenuWizard/archive/master.zip) and unzip it.
 
-3. `userChrome.css` and `simpleMenuWizard` belong into *[...]\Profiles\\**profile.folder**\chrome\\* directory.
+3. Move `userChrome.css` and `simpleMenuWizard` into *[...]\Profiles\\**profile.folder**\chrome\\* directory. If chrome folder doesn't exist, create it.
 
-4. Now open the `simpleMenuWizard` directory and open each .css file with a texteditor to customize them to your needs.  
-**Enabling** options: Remove /* at the beginning of the line  
-**Disabling** options: Add /* at the beginning of the line
+4. Now open the `simpleMenuWizard` directory and edit each .css file with a texteditor to customize them to your needs.  
+**Activate** option: Remove `/*` at the beginning of the line  
+**Deactivate** option: Add `/*` at the beginning of the line
 
 Mind that the **last active** option **must not have** a trailing comma for [correct syntax](http://www.htmldog.com/guides/css/intermediate/grouping/).  
 
