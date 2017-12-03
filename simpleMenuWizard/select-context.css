@@ -8,14 +8,16 @@
 
 /* select-context.css */
 
-/* #context-copy,                        /* Copy */
-/* #context-selectall,                   /* Select All */
-/* #context-sep-selectall,               /******* Separator *******/
-/* #context-searchselect,                /* Search [Google] for "[selected]" */
-/* #context-viewpartialsource-selection, /* View Selection Source */
-/* #inspect-separator,                   /******* Separator *******/
-/* #context-inspect,                     /* Inspect Element (Q) */
-/* #context-contentAreaContextMenu > menuseparator:nth-child(92),  /** Separator **/
-/* #ublock0_raymondhill_net_uBlock0-blockElement,  /* Block element (by uBlock addon) */
+/* #context-copy,                                  /* Copy                             */
+/* #context-selectall,                             /* Select All                       */
+/* #context-sep-selectall,                         /************ Separator *************/
+/* #context-searchselect,                          /* Search [Google] for "[selected]" */
+/* #context-viewpartialsource-selection,           /* View Selection Source            */
+/* #inspect-separator,                             /************ Separator *************/
+/* #context-inspect,                               /* Inspect Element (Q)              */
+/* #context-contentAreaContextMenu
+       > menuseparator:nth-child(92),              /************ Separator *************/
+/* #ublock0_raymondhill_net_uBlock0-blockElement,  /* Block element (by uBlock addon)  */
+
 #leave_this_dummy_here
     { display:none !important; }

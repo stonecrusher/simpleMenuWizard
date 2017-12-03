@@ -8,29 +8,31 @@
 
 /* media-context.css */
 
-/* #context-media-play,              /* Play */
-/* #context-media-mute,              /* Mute */
-/* #context-media-unmute,            /* Unmute */
-/* #context-media-playbackrate,      /* Play Speed */
-/* #context-media-playbackrate-050x,   /* Play Speed: Slow (0.5x) */
-/* #context-media-playbackrate-100x,   /* Play Speed: Normal */
-/* #context-media-playbackrate-125x,   /* Play Speed: Fast (1.25x) */
-/* #context-media-playbackrate-150x,   /* Play Speed: Faster (1.5x) */
-/* #context-media-playbackrate-200x,   /* Play Speed: Fast (2x) */
-/* #context-media-loop,              /* Loop */
-/* #context-media-showcontrols,      /* Show Controls */
-/* #context-media-hidecontrols,      /* Hide Controls */
-/* #context-video-fullscreen,        /* Full Screen */
-/* #context-leave-dom-fullscreen,    /* Exit Full Screen */
-/* #context-media-sep-commands,      /******* Separator *******/
-/* #context-copyvideourl,            /* Copy Video Location */
-/* #context-copyaudiourl,            /* Copy Audio Location */
-/* #context-sep-copyimage,           /******* Separator *******/
-/* #context-saveaudio,               /* Save Audio As... */
-/* #context-sendaudio,               /* Email Audio... */
-/* #inspect-separator,               /******* Separator *******/
-/* #context-inspect,                 /* Inspect Element (Q) */
-/* #context-contentAreaContextMenu > menuseparator:nth-child(92),  /** Separator **/
+/* #context-media-play,                            /* Play                            */
+/* #context-media-mute,                            /* Mute                            */
+/* #context-media-unmute,                          /* Unmute                          */
+/* #context-media-playbackrate,                    /* Play Speed                      */
+/* #context-media-playbackrate-050x,                 /* Play Speed: Slow (0.5x)         */
+/* #context-media-playbackrate-100x,                 /* Play Speed: Normal              */
+/* #context-media-playbackrate-125x,                 /* Play Speed: Fast (1.25x)        */
+/* #context-media-playbackrate-150x,                 /* Play Speed: Faster (1.5x)       */
+/* #context-media-playbackrate-200x,                 /* Play Speed: Fast (2x)           */
+/* #context-media-loop,                            /* Loop                            */
+/* #context-media-showcontrols,                    /* Show Controls                   */
+/* #context-media-hidecontrols,                    /* Hide Controls                   */
+/* #context-video-fullscreen,                      /* Full Screen                     */
+/* #context-leave-dom-fullscreen,                  /* Exit Full Screen                */
+/* #context-media-sep-commands,                    /************ Separator ************/
+/* #context-copyvideourl,                          /* Copy Video Location             */
+/* #context-copyaudiourl,                          /* Copy Audio Location             */
+/* #context-sep-copyimage,                         /************ Separator ************/
+/* #context-saveaudio,                             /* Save Audio As...                */
+/* #context-sendaudio,                             /* Email Audio...                  */
+/* #inspect-separator,                             /************ Separator ************/
+/* #context-inspect,                               /* Inspect Element (Q)             */
+/* #context-contentAreaContextMenu
+       > menuseparator:nth-child(92),              /************ Separator ************/
 /* #ublock0_raymondhill_net_uBlock0-blockElement,  /* Block element (by uBlock addon) */
+
 #leave_this_dummy_here
     { display:none !important; }

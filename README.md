@@ -18,7 +18,9 @@ To **remove entries from the context menu** you need to
 
 3. Move `userChrome.css` and `simpleMenuWizard` into *[...]\Profiles\\**profile.folder**\chrome\\* directory. If chrome folder doesn't exist, create it.
 
-4. Now open the `simpleMenuWizard` directory and edit each .css file with a texteditor to customize them to your needs.  
+4. Open `userChrome.css` for a general overview and some options.
+
+5. Open the `simpleMenuWizard` directory and edit each .css file with a texteditor to customize them to your needs.  
 **Activate** option to remove menu item: Remove `/*` at the beginning of the line  
 **Deactivate** option to leave menu item: Add `/*` at the beginning of the line
 
@@ -31,15 +33,18 @@ Edit [...]-context.css to modify context menu:
 * `link-context.css` when right-clicking on a link  
 * `media-context.css` when right-clicking on media like audio or html5 video  
 * `select-context.css` when right-clicking on selected text or object  
+* `sidebar-context.css` when right-clicking on items in bookmark- or history sidebar
 * `tab-context.css` when right-clicking on a tab  
+* `toolbar-context.css` when right-clicking on toolbar or tabbar
+* `urlbar-context.css` when right-clicking on the addressbar
 
-Items that appear in different contexts with same ID will disappear in all contexts when activated.
+
+Items that appear in different contexts with same ID might disappear in all contexts when activated. This is because many menus actually share the same context and are separated here for more convenience.
 
 ## To do
-Context menus not included yet:
-* Right click anywhere in adress bar
-* Right click in sidebar (bookmarks + history)
-* Left click on (main) hamburger menu
+Menus not included yet:
+* Left click on (main) hamburger menu (`.panel-subview-body`)
+* Main titlebar menus (oldschool menu opening with `alt` key) (`#main-menubar`)
 
 ## Contribute
 For bugreports and missing items you're welcome to [open an issue here](https://github.com/stonecrusher/simpleMenuWizard/issues) or make a pull request.
