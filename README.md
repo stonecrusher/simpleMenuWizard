@@ -20,11 +20,11 @@ To **remove entries from the context menu** you need to
 
 4. Open `userChrome.css` for a general overview and some options.
 
-5. Open the `simpleMenuWizard` directory and edit each .css file with a texteditor to customize them to your needs.  
+5. Open the `simpleMenuWizard` directory and edit each .css file (except beginning with `opt_`) with a texteditor to customize them to your needs.  
 **Activate** option to remove menu item: Remove `/*` at the beginning of the line  
 **Deactivate** option to leave menu item: Add `/*` at the beginning of the line
 
-Edit [...]-context.css to modify context menu:
+Each file is for another context:
 
 * `blank-context.css`	when right-clicking on a blank area or text
 * `frame-context.css` when right-clicking on an iframe  
