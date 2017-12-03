@@ -32,3 +32,9 @@ Edit [...]-context.css to modify context menu:
 * `tab-context.css` when right-clicking on a tab  
 
 Items that appear in different contexts with same ID will disappear in all contexts when activated.
+
+## Contribute
+For bugreports and missing items you're welcome to [open an issue here](https://github.com/stonecrusher/simpleMenuWizard/issues).
+
+## Links
+A great repository for modifications of the Firefox 57+ UI is [CustomCSSforFx](https://github.com/Aris-t2/CustomCSSforFx) by Aris
