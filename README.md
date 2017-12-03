@@ -19,8 +19,8 @@ To **remove entries from the context menu** you need to
 3. Move `userChrome.css` and `simpleMenuWizard` into *[...]\Profiles\\**profile.folder**\chrome\\* directory. If chrome folder doesn't exist, create it.
 
 4. Now open the `simpleMenuWizard` directory and edit each .css file with a texteditor to customize them to your needs.  
-**Activate** option: Remove `/*` at the beginning of the line  
-**Deactivate** option: Add `/*` at the beginning of the line
+**Activate** option to remove menu item: Remove `/*` at the beginning of the line  
+**Deactivate** option to leave menu item: Add `/*` at the beginning of the line
 
 Edit [...]-context.css to modify context menu:
 
