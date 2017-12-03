@@ -1,0 +1,24 @@
+/*AGENT_SHEET*/
+
+/*********************************************************************************************
+  simpleMenuWizard: Firefox 57+ userChrome.css tweaks to remove context menu items.
+  https://github.com/stonecrusher/simpleMenuWizard
+	
+**********************************************************************************************
+
+/* input-context.css */
+
+/* #context-undo,			/* Undo */
+/* #context-sep-undo,		/******* Separator *******/
+/* #context-cut,			/* Cut */
+/* #context-copy,			/* Copy */
+/* #context-paste,			/* Paste */
+/* #context-delete,			/* Delete */
+/* #context-sep-paste,		/******* Separator *******/
+/* #context-selectall,		/* Select All */
+/* #context-keywordfield,	/* Add a Keyword for this Search... */
+/* #inspect-separator,		/******* Separator *******/
+/* #context-inspect,		/* Inspect Element (Q) */
+/* #screenshots_mozilla_org_create-screenshot,		/* Take a Screenshot */
+/* #ublock0_raymondhill_net_uBlock0-blockElement	/* Block element (by uBlock addon) */
+	{ display:none !important; }
