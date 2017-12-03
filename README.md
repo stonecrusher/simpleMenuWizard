@@ -2,6 +2,8 @@
 
 Hide contextmenu items in Firefox 57+
 
+---
+
 This project is inspired by [this post](https://www.reddit.com/r/firefox/comments/7dvtw0/guide_how_to_edit_your_context_menu/) on [reddit.com/r/Firefox](https://www.reddit.com/r/firefox/) and by [this issue](https://github.com/Aris-t2/CustomCSSforFx/issues/76) in the great [CustomCSSforFx](https://github.com/Aris-t2/CustomCSSforFx) project.
 
 I made it because I am missing [Menu Wizard addon](https://addons.mozilla.org/de/firefox/addon/s3menu-wizard/) in Firefox 57 like many others.
