@@ -11,7 +11,7 @@
 /* @import url("./simpleMenuWizard/opt_send-to-device-hide-all.css"); /**/
 
 /* Hide all inactive menu items */
-/* #mainPopupSet menuitem[disabled="true] { display: none !important; } /**/
+/* #mainPopupSet menuitem[disabled="true"] { display: none !important; } /**/
 
 
 /********************************************************/
