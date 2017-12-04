@@ -21,25 +21,26 @@ To **remove entries from the context menu** you need to
 4. Open `userChrome.css` for a general overview and some options.
 
 5. Open the `simpleMenuWizard` directory and edit each .css file (except beginning with `opt_`) with a texteditor to customize them to your needs.  
-**Activate** option to remove menu item: Remove `/*` at the beginning of the line  
-**Deactivate** option to leave menu item: Add `/*` at the beginning of the line
+  **Activate** option to remove menu item: Remove `/*` at the beginning of the line  
+  **Deactivate** option to leave menu item: Add `/*` at the beginning of the line
+    
+    Each file is for another context:
+    
+    * `blank-context.css`	when right-clicking on a blank area or text
+    * `frame-context.css` when right-clicking on an iframe  
+    * `image-context.css` when right-clicking on an image  
+    * `input-context.css` when right-clicking on an input-field  
+    * `link-context.css` when right-clicking on a link  
+    * `media-context.css` when right-clicking on media like audio or html5 video  
+    * `select-context.css` when right-clicking on selected text or object  
+    * `sidebar-context.css` when right-clicking on items in bookmark- or history sidebar
+    * `tab-context.css` when right-clicking on a tab  
+    * `toolbar-context.css` when right-clicking on toolbar or tabbar
+    * `urlbar-context.css` when right-clicking on the addressbar
 
-Each file is for another context:
-
-* `blank-context.css`	when right-clicking on a blank area or text
-* `frame-context.css` when right-clicking on an iframe  
-* `image-context.css` when right-clicking on an image  
-* `input-context.css` when right-clicking on an input-field  
-* `link-context.css` when right-clicking on a link  
-* `media-context.css` when right-clicking on media like audio or html5 video  
-* `select-context.css` when right-clicking on selected text or object  
-* `sidebar-context.css` when right-clicking on items in bookmark- or history sidebar
-* `tab-context.css` when right-clicking on a tab  
-* `toolbar-context.css` when right-clicking on toolbar or tabbar
-* `urlbar-context.css` when right-clicking on the addressbar
-
-
-Items that appear in different contexts with same ID might disappear in all contexts when activated. This is because many menus actually share the same context and are separated here for more convenience.
+Important notes:
+ * All options are disabled by default, so if you don't edit the files, nothing will happen.
+ * Items that appear in different contexts with same ID might disappear in several contexts when activated. This is because many menus actually share the same context and are separated here for more convenience. For specific issues ask back [here](https://github.com/stonecrusher/simpleMenuWizard/issues), there may be workarounds.
 
 ## To do
 Menus not included yet:
