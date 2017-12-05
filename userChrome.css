@@ -2,22 +2,23 @@
 
 /****** simpleMenuWizard ******/
 
-/* Activate or deactivate the following options */
-/* Remove '/*' at the beginning of a line (not comment line) to activate the option
-/* Add '/*' at the beginning of the line (not comment line) to deactivate the option
-/********************************************************/
+/**********************************************************
+   How to activate or deactivate the following options:
+   Remove '/*' at the beginning of a line (not comment line) to activate the option
+   Add '/*' at the beginning of the line (not comment line) to deactivate the option
+   ********************************************************/
 
+/*** Options ***/
 /* Hide all "Send to device" items (if you don't use syncing you can safely enable this) */
-/* @import url("./simpleMenuWizard/opt_send-to-device-hide-all.css"); /**/
+/* @import url("./simpleMenuWizard/opt_send-to-device-hide-all.css");
 
 /* Hide all inactive menu items */
-/* #mainPopupSet menuitem[disabled="true"] { display: none !important; } /**/
+/* #mainPopupSet menuitem[disabled="true"] { display: none !important; }
 
-
-/********************************************************/
-/* Modify the following files themselves to your needs. */
-/* Do not modify the following lines.                   */
-
+/********************************************************
+   Modify the following files themselves to your needs.
+   Do not modify the following lines.
+   ******************************************************/
 /* When right-clicking on... */
 @import url("./simpleMenuWizard/blank-context.css");   /* ...a blank area on a webpage              */
 @import url("./simpleMenuWizard/frame-context.css");   /* ...an iframe                              */
