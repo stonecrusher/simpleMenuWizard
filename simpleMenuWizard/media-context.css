@@ -3,10 +3,9 @@
 /*********************************************************************************************
   simpleMenuWizard: Firefox 57+ userChrome.css tweaks to remove context menu items.
   https://github.com/stonecrusher/simpleMenuWizard
-    
 **********************************************************************************************
 
-/* media-context.css */
+/*** media-context.css ***/
 
 /* #context-media-play,                            /* Play                            */
 /* #context-media-mute,                            /* Mute                            */
