@@ -12,11 +12,13 @@ I made it because I am missing [Menu Wizard addon](https://addons.mozilla.org/de
 
 To **remove entries from the context menu** you need to 
 
-1. Find your **profile folder**: Address bar > Enter `about:support` > Click `Open Folder`.
+1. Find your **profile folder** (profile names are different for everyone):  
+   Address bar > Enter `about:support` > Click `Open Folder`  
+   or `Shift+F2` to open Firefox's command line, then enter the command `folder openprofile`  
 
 2. [Download this project](https://github.com/stonecrusher/simpleMenuWizard/archive/master.zip) and unzip it.
 
-3. Move `userChrome.css` and `simpleMenuWizard` into *[...]\Profiles\\**profile.folder**\chrome\\* directory. If chrome folder doesn't exist, create it.
+3. Move `userChrome.css` and `simpleMenuWizard` into *[...]\\**profile.folder**\chrome\\* directory. If chrome folder doesn't exist, create it.
 
 4. Open `userChrome.css` for a general overview and some options.
 
