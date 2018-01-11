@@ -1,6 +1,6 @@
 # simpleMenuWizard
 
-Hide contextmenu items in Firefox 57 and later
+Hide default contextmenu items in Firefox 57 and later
 
 ---
 
