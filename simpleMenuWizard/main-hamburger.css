@@ -37,6 +37,7 @@
 /* #panelMenu_searchBookmarks,                                /* Search Bookmarks */
 /* #panelMenu_searchBookmarks + toolbarseparator,             /**** Separator ****/
 /* #panelMenu_recentBookmarks,                                /* Recently Bookmarked label */
+/* #panelMenu_bookmarksMenu,                                  /* Recently Bookmarked items */
 /* #panelMenu_showAllBookmarks,                               /* Show all Bookmarks (grey at bottom) */
 /* #appMenu-library-pocket-button,                        /* View Pocket List */
 /* #appMenu-library-history-button,                       /* History */
@@ -48,6 +49,7 @@
 /* #appMenuRecentlyClosedWindows,                             /* Recently Closed Windows */
 /* #appMenuRecentlyClosedWindows + toolbarseparator,          /**** Separator ****/
 /* #appMenuRecentlyClosedWindows ~ label,                     /* Recent History label */
+/* #appMenu_historyMenu,                                      /* Recent History items */
 /* #PanelUI-historyMore,                                      /* Show all History (grey at bottom) */
 /* #appMenu-library-downloads-button,                     /* Downloads */
 /* #appMenu-library-downloads-show-button,                    /* Show Downloads Folder */
@@ -57,7 +59,7 @@
 /* #appMenu-library-screenshots,                          /* Screenshots */
 /* #appMenu-library-screenshots + toolbarseparator,       /**** Separator ****/
 /* #appMenu-library-screenshots ~ label.subview-header,   /* Recent Highlights label */
-/* #appMenu-library-recentHighlights,                     /* Recent Highlights (items) */
+/* #appMenu-library-recentHighlights,                     /* Recent Highlights items */
 /* #appMenu-addons-button,                            /* Add-ons */
 /* #appMenu-preferences-button,                       /* Options */
 /* #appMenu-customize-button,                         /* Customize… */
