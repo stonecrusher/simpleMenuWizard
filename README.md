@@ -33,7 +33,7 @@ To **remove entries from the context menu** you need to
     * `image-context.css` when right-clicking on an image  
     * `input-context.css` when right-clicking on an input-field  
     * `link-context.css` when right-clicking on a link  
-    * `main-hamburger.css` when left-clicking on the menu hamburger on top right  
+    * `main-hamburger.css` when left-clicking on the menu **hamburger on top right**  
     * `media-context.css` when right-clicking on media like audio or html5 video  
     * `select-context.css` when right-clicking on selected text or object  
     * `sidebar-context.css` when right-clicking on items in bookmark- or history sidebar
