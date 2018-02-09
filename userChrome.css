@@ -28,9 +28,10 @@
    ********************************************************
 
 /*** Options ***/
-/*** Hide all "Send to device" items (if you don't use syncing you can safely enable this) ***/
-/* @import url("./simpleMenuWizard/opt_send-to-device-hide-all.css");
+/*** If you don't use syncing: Hide all "Send to device" and sync items ***/
+/* @import url("./simpleMenuWizard/opt_noSync.css");
 
 /*** Hide all inactive menu items ***/
 /* #mainPopupSet menuitem[disabled="true"] { display: none !important; }
+
 /****** simpleMenuWizard end ******/
