@@ -18,5 +18,5 @@
 #appMenu-fxa-container,                      /* sync login in hamburger menu */
 #appMenu-fxa-container + toolbarseparator,
 #sidebar-switcher-tabs,                      /* sidebar */
-#sync-setup                                                              /* oldschool alt-menu */
+#sync-setup                                  /* oldschool alt-menu */
     { display: none !important; }
