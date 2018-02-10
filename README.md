@@ -14,7 +14,7 @@ To **remove entries from the context menu** you need to
 
 1. Find your **profile folder** (profile names are different for everyone):  
    Address bar > Enter `about:support` > Click `Open Folder`  
-   or `Shift+F2` to open Firefox's command line, then enter the command `folder openprofile`  
+   or `Shift + F2` to open Firefox's command line, then enter the command `folder openprofile`.  
 
 2. [Download this project](https://github.com/stonecrusher/simpleMenuWizard/archive/master.zip) and unzip it.
 
@@ -23,8 +23,8 @@ To **remove entries from the context menu** you need to
 4. Open `userChrome.css` for a general overview and some options.
 
 5. Open the `simpleMenuWizard` directory and edit each .css file (except beginning with `opt_`) with a texteditor to customize them to your needs.  
-  **Activate** option to remove menu item: Remove `/*` at the beginning of the line  
-  **Deactivate** option to leave menu item: Add `/*` at the beginning of the line
+  **Activate** option to remove menu item: Remove `/*` at the beginning of the line.  
+  **Deactivate** option to leave menu item: Add `/*` at the beginning of the line.  
     
     Each file is for another context:
     
@@ -41,9 +41,12 @@ To **remove entries from the context menu** you need to
     * `toolbar-context.css` when right-clicking on toolbar or tabbar
     * `urlbar-context.css` when right-clicking on the addressbar
 
+6. Restart Firefox to make changes work.  
+   Hint: A nice way to restart is via command line. Press `Shift + F2`, type `restart`, then press enter.  
+
 Important notes:
  * All options are disabled by default, so if you don't edit the files, nothing will happen.
- * Items that appear in different contexts with same ID might disappear in several contexts when activated. This is because many menus actually share the same context and are separated here for more convenience. For specific issues ask back [here](https://github.com/stonecrusher/simpleMenuWizard/issues), there may be workarounds.
+ * Items that appear in different contexts with same ID might disappear in several contexts when activated. This is because many menus actually share the same context and are separated here for more convenience. For specific issues please ask back [here](https://github.com/stonecrusher/simpleMenuWizard/issues), there may be workarounds.
 
 ## To do
 Menus not included yet:
