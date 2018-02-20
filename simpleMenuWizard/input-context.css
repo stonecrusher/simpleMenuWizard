@@ -28,7 +28,6 @@
 /* #inspect-separator,                             /************ Separator *************/
 /* #context-inspect,                               /* Inspect Element (Q)              */
 /* #screenshots_mozilla_org_create-screenshot,     /* Take a Screenshot                */
-/* #ublock0_raymondhill_net_uBlock0-blockElement,  /* Block element (by uBlock addon)  */
 
 #leave_this_dummy_here
     { display:none !important; }

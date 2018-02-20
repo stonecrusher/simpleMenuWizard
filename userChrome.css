@@ -31,6 +31,9 @@
 /*** If you don't use syncing: Hide all "Send to device" and sync items ***/
 /* @import url("./simpleMenuWizard/opt_noSync.css");
 
+/* If you use uBlock Origin and want to remove all uBO context menu entries */
+/* @import url("./simpleMenuWizard/opt_uBO.css");
+
 /*** Hide all inactive menu items ***/
 /* #mainPopupSet menuitem[disabled="true"] { display: none !important; }
 
