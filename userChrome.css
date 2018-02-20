@@ -16,6 +16,7 @@
 @import url("./simpleMenuWizard/media-context.css");   /* ...media like audio or html5 video        */
 @import url("./simpleMenuWizard/select-context.css");  /* ...selected text or selected object       */
 @import url("./simpleMenuWizard/sidebar-context.css"); /* ...items in bookmarks- or history sidebar */
+@import url("./simpleMenuWizard/sidebar-header.css");  /* ...items in sidebar header dropdown       */
 @import url("./simpleMenuWizard/tab-context.css");     /* ...a tab                                  */
 @import url("./simpleMenuWizard/toolbar-context.css"); /* ...the toolbar or tabbar                  */
 @import url("./simpleMenuWizard/urlbar-context.css");  /* ...the addressbar                         */

@@ -10,7 +10,7 @@ I made it because I am missing [Menu Wizard addon](https://addons.mozilla.org/de
 
 ## Instructions:
 
-To **remove entries from the context menu** you need to 
+To **remove entries from the context menu** you need to
 
 1. Find your **profile folder** (profile names are different for everyone):  
    Address bar > Enter `about:support` > Click `Open Folder`  
@@ -25,9 +25,9 @@ To **remove entries from the context menu** you need to
 5. Open the `simpleMenuWizard` directory and edit each .css file (except beginning with `opt_`) with a texteditor to customize them to your needs.  
   **Activate** option to remove menu item: Remove `/*` at the beginning of the line.  
   **Deactivate** option to leave menu item: Add `/*` at the beginning of the line.  
-    
+
     Each file is for another context:
-    
+
     * `blank-context.css`	when right-clicking on a blank area or text
     * `frame-context.css` when right-clicking on an iframe  
     * `image-context.css` when right-clicking on an image  
@@ -37,6 +37,7 @@ To **remove entries from the context menu** you need to
     * `media-context.css` when right-clicking on media like audio or html5 video  
     * `select-context.css` when right-clicking on selected text or object  
     * `sidebar-context.css` when right-clicking on items in bookmark- or history sidebar
+    * `sidebar-header.css` when left-clicking the sidebar dropdown menu
     * `tab-context.css` when right-clicking on a tab  
     * `toolbar-context.css` when right-clicking on toolbar or tabbar
     * `urlbar-context.css` when right-clicking on the addressbar
