@@ -1,0 +1,20 @@
+/*AGENT_SHEET*/
+
+/*********************************************************************************************
+  simpleMenuWizard: Firefox 57+ userChrome.css tweaks to remove context menu items.
+  https://github.com/stonecrusher/simpleMenuWizard
+**********************************************************************************************
+
+/*** sidebar-header.css ***/
+
+/* #sidebar-switcher-bookmarks,                         /* Bookmarks                        */
+/* #sidebar-switcher-history,                           /* History                          */
+/* #sidebar-switcher-tabs,                              /* Synced Tabs                      */
+/* #sidebarMenu-popup > toolbarseparator:nth-child(4),  /* Menu Separator                   */
+/* #sidebarMenu-popup > toolbarseparator:nth-child(6),  /* Menu Separator - After Add-ons   */
+/* #sidebar-reverse-position,                           /* Move Sidebar to Right/Left       */
+/* #sidebarMenu-popup > toolbarseparator:nth-child(8),  /* Menu Separator                   */
+/* toolbarbutton.subviewbutton:nth-child(9),            /* Close Sidebar                    */
+
+#leave_this_dummy_here
+    { display:none !important; }
