@@ -9,16 +9,16 @@
 
 /*** All toolbars share one context menu, but show different items ***/
 
-/* #toolbar-context-menu .customize-context-moveToPanel,                /* Pin to Overflow Menu             */
-/* #toolbar-context-menu .customize-context-removeFromToolbar,          /* Remove from Toolbar              */
-/* #toolbar-context-menu #toolbar-context-reloadAllTabs,                /* Reload All Tabs                  */
-/* #toolbar-context-menu #toolbar-context-bookmarkAllTabs,              /* Bookmark All Tabs                */
-/* #toolbar-context-menu #toolbar-context-undoCloseTab,                 /* Undo Close Tab                   */
-/* #toolbar-context-menu #toolbar-context-undoCloseTab + menuseparator, /************ Seperator *************/
-/* #toolbar-context-menu #toggle_toolbar-menubar,                       /* Menu Bar (toggle)                */
-/* #toolbar-context-menu #toggle_PersonalToolbar,                       /* Bookmarks Toolbar (toggle)       */
-/* #toolbar-context-menu #viewToolbarsMenuSeparator,                    /************ Seperator *************/
-/* #toolbar-context-menu .viewCustomizeToolbar,                         /* Customize...                     */
+/* #toolbar-context-menu .customize-context-moveToPanel,                 /* Pin to Overflow Menu             */
+/* #toolbar-context-menu .customize-context-removeFromToolbar,           /* Remove from Toolbar              */
+/* #toolbar-context-menu #toolbar-context-reloadAllTabs,                 /* Reload All Tabs                  */
+/* #toolbar-context-menu #toolbar-context-bookmarkAllTabs,               /* Bookmark All Tabs                */
+/* #toolbar-context-menu #toolbar-context-undoCloseTab,                  /* Undo Close Tab                   */
+/* #toolbar-context-menu #toolbar-context-undoCloseTab + menuseparator,  /************ Seperator *************/
+/* #toolbar-context-menu #toggle_toolbar-menubar,                        /* Menu Bar (toggle)                */
+/* #toolbar-context-menu #toggle_PersonalToolbar,                        /* Bookmarks Toolbar (toggle)       */
+/* #toolbar-context-menu #viewToolbarsMenuSeparator,                     /************ Seperator *************/
+/* #toolbar-context-menu .viewCustomizeToolbar,                          /* Customize...                     */
 
 #leave_this_dummy_here
     { display:none !important; }

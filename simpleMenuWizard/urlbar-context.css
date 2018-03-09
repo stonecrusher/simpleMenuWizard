@@ -7,15 +7,15 @@
 
 /*** urlbar-context.css ***/
 
-/* #urlbar menuitem[cmd="cmd_undo"],                   /* Undo       */
-/* #urlbar menuitem[cmd="cmd_undo"] + menuseparator,   /* Separator  */
-/* #urlbar menuitem[cmd="cmd_cut"],                    /* Cut        */
-/* #urlbar menuitem[cmd="cmd_copy"],                   /* Copy       */
-/* #urlbar menuitem[cmd="cmd_paste"],                  /* Paste      */
-/* #urlbar menuitem[anonid="paste-and-go"],            /* Paste & Go */
-/* #urlbar menuitem[cmd="cmd_delete"],                 /* Delete     */
-/* #urlbar menuitem[cmd="cmd_delete"] + menuseparator, /* Separator  */
-/* #urlbar menuitem[cmd="cmd_selectAll"],              /* Select All */
+/* #urlbar menuitem[cmd="cmd_undo"],                    /* Undo       */
+/* #urlbar menuitem[cmd="cmd_undo"] + menuseparator,    /* Separator  */
+/* #urlbar menuitem[cmd="cmd_cut"],                     /* Cut        */
+/* #urlbar menuitem[cmd="cmd_copy"],                    /* Copy       */
+/* #urlbar menuitem[cmd="cmd_paste"],                   /* Paste      */
+/* #urlbar menuitem[anonid="paste-and-go"],             /* Paste & Go */
+/* #urlbar menuitem[cmd="cmd_delete"],                  /* Delete     */
+/* #urlbar menuitem[cmd="cmd_delete"] + menuseparator,  /* Separator  */
+/* #urlbar menuitem[cmd="cmd_selectAll"],               /* Select All */
 
 #leave_this_dummy_here
     { display:none !important; }
