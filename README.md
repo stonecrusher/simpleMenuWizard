@@ -57,7 +57,7 @@ How to do it: Set the respective value in `about:config`.
 
 - For Pocket, load `about:config?filter=extensions.pocket.enabled` into addressbar and switch to `false`
 - For Sync, load `about:config?filter=identity.fxaccounts.enabled` into addressbar and switch to `false` (only available in FF60 or higher)
-- For Screenshots, load `about:config?filter=extensions.screenshots.disabled` into addressbar and switch it to `true`
+- For Screenshots, load `about:config?filter=extensions.screenshots.disabled` into addressbar and switch to `true`
 
 ## To do
 Menus not included yet:
