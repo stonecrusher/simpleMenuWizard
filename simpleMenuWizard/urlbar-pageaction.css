@@ -7,15 +7,13 @@
 
 /*** urlbar-pageaction.css ***/
 
-
-/* pageAction-panel-bookmark,                             /* Bookmark This Page  */
-/* #pageAction-panel-pocket,                              /* Save Page to Pocket */
-/* #pageAction-panel-bookmarkSeparator,                   /* Separator           */
-/* #pageAction-panel-copyURL,                             /* Copy Link           */
-/* #pageAction-panel-emailLink,                           /* Email Link...       */
-/* #pageAction-panel-sendToDevice,                        /* Send Tab to Device  */
-/* #pageAction-panel-screeenshots,                        /* Take a Screenshot   */
-
+/* #pageAction-panel-bookmark,           /* Bookmark This Page  */
+/* #pageAction-panel-pocket,             /* Save Page to Pocket */
+/* #pageAction-panel-bookmarkSeparator,  /****** Separator ******/
+/* #pageAction-panel-copyURL,            /* Copy Link           */
+/* #pageAction-panel-emailLink,          /* Email Link…         */
+/* #pageAction-panel-sendToDevice,       /* Send Tab to Device  */
+/* #pageAction-panel-screeenshots,       /* Take a Screenshot   */
 
 #leave_this_dummy_here
     { display:none !important; }
