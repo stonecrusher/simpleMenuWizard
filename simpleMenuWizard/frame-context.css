@@ -18,12 +18,12 @@
 /* #context-reloadframe,                  /* Reload Frame             */
 /* #context-reloadframe + menuseparator,  /******** Separator *********/
 /* #context-bookmarkframe,                /* Bookmark This Frame      */
-/* #context-saveframe,                    /* Save Frame As...         */
+#context-saveframe,                    /* Save Frame As...         */
 /* #context-saveframe + menuseparator,    /******** Separator *********/
-/* #context-printframe,                   /* Print Frame...           */
-/* #context-printframe + menuseparator,   /******** Separator *********/
-/* #context-viewframesource,              /* View Frame Source        */
-/* #context-viewframeinfo,                /* View Frame Info          */
+#context-printframe,                   /* Print Frame...           */
+#context-printframe + menuseparator,   /******** Separator *********/
+#context-viewframesource,              /* View Frame Source        */
+#context-viewframeinfo,                /* View Frame Info          */
 
 #leave_this_dummy_here
     { display:none !important; }
