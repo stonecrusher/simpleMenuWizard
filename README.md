@@ -56,7 +56,7 @@ If you don't use either of those "internal addons" at all, you can just disable 
 How to do it: Set the respective value in `about:config`.
 
 - For Pocket, load `about:config?filter=extensions.pocket.enabled` into your addressbar and switch to `false`
-- For Sync, load `about:config?filter=identity.fxaccounts.enabled` into your addressbar and switch to `false`
+- For Sync, load `about:config?filter=identity.fxaccounts.enabled` into your addressbar and switch to `false` (only available in FF60 or higher)
 - For Screenshots, load `about:config?filter=extensions.screenshots.disabled` into your addressbar and switch it to `true`
 
 ## To do
