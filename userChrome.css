@@ -7,19 +7,20 @@
    Do not modify the following @import block.
    ******************************************************
 /*** When right-clicking on... ***/
-@import url("./simpleMenuWizard/blank-context.css");   /* ...a blank area on a webpage              */
-@import url("./simpleMenuWizard/frame-context.css");   /* ...an iframe                              */
-@import url("./simpleMenuWizard/image-context.css");   /* ...an image                               */
-@import url("./simpleMenuWizard/input-context.css");   /* ...an input-field                         */
-@import url("./simpleMenuWizard/link-context.css");    /* ...a link                                 */
-@import url("./simpleMenuWizard/main-hamburger.css");  /* Leftclick the hamburger menu on top right */
-@import url("./simpleMenuWizard/media-context.css");   /* ...media like audio or html5 video        */
-@import url("./simpleMenuWizard/select-context.css");  /* ...selected text or selected object       */
-@import url("./simpleMenuWizard/sidebar-context.css"); /* ...items in bookmarks- or history sidebar */
-@import url("./simpleMenuWizard/sidebar-header.css");  /* ...items in sidebar header dropdown       */
-@import url("./simpleMenuWizard/tab-context.css");     /* ...a tab                                  */
-@import url("./simpleMenuWizard/toolbar-context.css"); /* ...the toolbar or tabbar                  */
-@import url("./simpleMenuWizard/urlbar-context.css");  /* ...the addressbar                         */
+@import url("./simpleMenuWizard/blank-context.css");     /* ...a blank area on a webpage              */
+@import url("./simpleMenuWizard/frame-context.css");     /* ...an iframe                              */
+@import url("./simpleMenuWizard/image-context.css");     /* ...an image                               */
+@import url("./simpleMenuWizard/input-context.css");     /* ...an input-field                         */
+@import url("./simpleMenuWizard/link-context.css");      /* ...a link                                 */
+@import url("./simpleMenuWizard/main-hamburger.css");    /* Leftclick the hamburger menu on top right */
+@import url("./simpleMenuWizard/media-context.css");     /* ...media like audio or html5 video        */
+@import url("./simpleMenuWizard/select-context.css");    /* ...selected text or selected object       */
+@import url("./simpleMenuWizard/sidebar-context.css");   /* ...items in bookmarks- or history sidebar */
+@import url("./simpleMenuWizard/sidebar-header.css");    /* ...items in sidebar header dropdown       */
+@import url("./simpleMenuWizard/tab-context.css");       /* ...a tab                                  */
+@import url("./simpleMenuWizard/toolbar-context.css");   /* ...the toolbar or tabbar                  */
+@import url("./simpleMenuWizard/urlbar-context.css");    /* ...the addressbar                         */
+@import url("./simpleMenuWizard/urlbar-pageaction.css"); /* ...the addressbar elipses ...             */
 
 
 /**********************************************************
