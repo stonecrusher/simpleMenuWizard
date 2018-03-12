@@ -15,7 +15,7 @@
 /* #context-delete,                             /* Delete                           */
 /* #context-sep-paste,                          /************ Separator *************/
 /* #context-selectall,                          /* Select All                       */
-#context-keywordfield,                       /* Add a Keyword for this Search…   */
+/* #context-keywordfield,                       /* Add a Keyword for this Search…   */
 /* #spell-separator,                            /************ Separator *************/
 /* #spell-check-enabled,                        /* Check Spelling                   */
 /* #spell-add-dictionaries-main,                /* Add Dictionaries…                */
@@ -24,7 +24,7 @@
 /* #context-bidi-text-direction-toggle,         /* Switch Text Direction            */
 /* #context-bidi-page-direction-toggle,         /* Switch Page Direction            */
 /* #fill-login-separator,                       /************ Separator *************/
-#fill-login,                                 /* Fill Login                       */
+/* #fill-login,                                 /* Fill Login                       */
 /* #inspect-separator,                          /************ Separator *************/
 /* #context-inspect,                            /* Inspect Element (Q)              */
 /* #screenshots_mozilla_org_create-screenshot,  /* Take a Screenshot                */

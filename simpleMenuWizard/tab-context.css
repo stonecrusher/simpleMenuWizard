@@ -14,15 +14,15 @@
 /* #tabContextMenu #context_unpinTab,                         /* Unpin Tab               */
 /* #tabContextMenu #context_duplicateTab,                     /* Duplicate Tab           */
 /* #tabContextMenu #context_openTabInWindow,                  /* Move to New Window      */
-#tabContextMenu #context_sendTabToDevice_separator,        /******** Separator ********/
-#tabContextMenu #context_sendTabToDevice,                  /* Send Tab to Device      */
+/* #tabContextMenu #context_sendTabToDevice_separator,        /******** Separator ********/
+/* #tabContextMenu #context_sendTabToDevice,                  /* Send Tab to Device      */
 /* #tabContextMenu #context_sendTabToDevice + menuseparator,  /******** Separator ********/
 /* #tabContextMenu #context_reloadAllTabs,                    /* Reload All Tabs         */
-#tabContextMenu #context_bookmarkAllTabs,                  /* Bookmarks All Tabs...   */
+/* #tabContextMenu #context_bookmarkAllTabs,                  /* Bookmarks All Tabs...   */
 /* #tabContextMenu #context_closeTabsToTheEnd,                /* Close Tabs to the Right */
 /* #tabContextMenu #context_closeOtherTabs,                   /* Close Other Tabs        */
 /* #tabContextMenu #context_closeOtherTabs + menuseparator,   /******** Separator ********/
-#tabContextMenu #context_undoCloseTab,                     /* Undo Close Tab          */
+/* #tabContextMenu #context_undoCloseTab,                     /* Undo Close Tab          */
 /* #tabContextMenu #context_closeTab,                         /* Close Tab               */
 
 #leave_this_dummy_here

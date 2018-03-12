@@ -5,11 +5,11 @@
   https://github.com/stonecrusher/simpleMenuWizard
 **********************************************************************************************
 
-/*** link-context.css ***/
+/*** urlbar-pageaction.css ***/
 
 
-/* pageAction-panel-bookmark,                            /* Bookmark This Page  */
-#pageAction-panel-pocket,                              /* Save Page to Pocket */
+/* pageAction-panel-bookmark,                             /* Bookmark This Page  */
+/* #pageAction-panel-pocket,                              /* Save Page to Pocket */
 /* #pageAction-panel-bookmarkSeparator,                   /* Separator           */
 /* #pageAction-panel-copyURL,                             /* Copy Link           */
 /* #pageAction-panel-emailLink,                           /* Email Link...       */

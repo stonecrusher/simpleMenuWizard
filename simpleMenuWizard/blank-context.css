@@ -17,9 +17,9 @@
 /* #context-bookmarkpage,                         /* Navi: Bookmark star icon             */
 /* #context-sep-navigation,                     /************** Separator ***************/
 /* #context-savepage,                           /* Save Page As...                      */
-#context-pocket,                             /* Save Page to Pocket                  */
+/* #context-pocket,                             /* Save Page to Pocket                  */
 /* #context-sep-sendpagetodevice,               /************** Separator ***************/
-#context-sendpagetodevice,                   /* Send Page to Device                  */
+/* #context-sendpagetodevice,                   /* Send Page to Device                  */
 /* #context-sep-viewbgimage,                    /************** Separator ***************/
 /* #context-viewbgimage,                        /* View Background Image                */
 /* #context-selectall,                          /* Select All                           */
@@ -28,7 +28,7 @@
 /* #context-viewinfo,                           /* View Page Info                       */
 /* #inspect-separator,                          /************** Separator ***************/
 /* #context-inspect,                            /* Inspect Element (Q)                  */
-#screenshots_mozilla_org_create-screenshot,  /* Take a Screenshot                    */
+/* #screenshots_mozilla_org_create-screenshot,  /* Take a Screenshot                    */
 
 #leave_this_dummy_here
     { display:none !important; }
