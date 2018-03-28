@@ -11,13 +11,13 @@ I made it because I am missing [Menu Wizard addon](https://addons.mozilla.org/de
 
 To **remove entries from the context menu** you need to
 
-1. Find your **profile folder** (profile names are different for everyone):
-   Address bar > Enter `about:support` > Click `Open Folder`
+1. Find your **profile folder** (profile names are different for everyone):  
+   Address bar > Enter `about:support` > Click `Open Folder`  
    or `Shift + F2` to open Firefox's command line, then enter the command `folder openprofile`.
 
 2. [Download this project](https://github.com/stonecrusher/simpleMenuWizard/archive/master.zip) and unzip it.
 
-3. Move `userChrome.css` and `simpleMenuWizard` into *[...]\\**profile.folder**\chrome\\* directory.
+3. Move `userChrome.css` and `simpleMenuWizard` into *[...]\\**profile.folder**\chrome\\* directory.  
    If chrome folder doesn't exist, create it.
 
 4. Open `userChrome.css` with a texteditor for a general overview and some options.
@@ -43,21 +43,22 @@ To **remove entries from the context menu** you need to
     * `urlbar-context.css` when right-clicking on the addressbar
     * `urlbar-pageaction.css` when left-clicking the three dots in the addressbar
 
-6. Restart Firefox to make changes work.
+6. Restart Firefox to make changes work.  
    Hint: A nice way to restart is via Firefox's command line. Press `Shift + F2`, type `restart`, press enter.
 
 Important notes:
  * All options are disabled by default, so if you don't edit the files, nothing will happen.
- * Items that appear in different contexts with same ID might disappear in several contexts when activated. This is because many menus actually share the same context and are separated here for more convenience. For specific issues please ask back [here](https://github.com/stonecrusher/simpleMenuWizard/issues), there may be workarounds.
+ * Items that appear in different contexts with same ID might disappear in several contexts when activated. This is because many menus actually share the same context and are separated here for more convenience.  
+   For specific issues please ask back [here](https://github.com/stonecrusher/simpleMenuWizard/issues), there may be workarounds.
 
 ## Hide Pocket / Sync / Screenshots
-If you don't use either of those "internal addons" at all, you can just disable them, which will also remove their context menu entries everywhere. So you don't have to do it manually and maybe search for different contexts.
+If you don't use either of those "internal addons" at all, you can just disable them, which will also remove their context menu entries everywhere. So you don't have to do it manually.
 
 How to do it: Set the respective value in `about:config`.
 
-- For Pocket, load `about:config?filter=extensions.pocket.enabled` into addressbar and switch to `false`
-- For Sync, load `about:config?filter=identity.fxaccounts.enabled` into addressbar and switch to `false` (only available in FF60 or higher)
-- For Screenshots, load `about:config?filter=extensions.screenshots.disabled` into addressbar and switch to `true`
+- For Pocket, load `about:config?filter=extensions.pocket.enabled` into addressbar and switch to `false`.
+- For Sync, load `about:config?filter=identity.fxaccounts.enabled` into addressbar and switch to `false` (only available in FF60 or higher).
+- For Screenshots, load `about:config?filter=extensions.screenshots.disabled` into addressbar and switch to `true`.
 
 ## To do
 Menus not included yet:
