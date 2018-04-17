@@ -38,6 +38,7 @@ To **remove entries from the context menu** you need to
     * `select-context.css` when right-clicking on selected text or object
     * `sidebar-context.css` when right-clicking on items in bookmark- or history sidebar
     * `sidebar-header.css` when left-clicking the sidebar dropdown menu
+    * `source-context.css` when right-clicking a blank area on view-source pages
     * `tab-context.css` when right-clicking on a tab
     * `toolbar-context.css` when right-clicking on toolbar or tabbar
     * `urlbar-context.css` when right-clicking on the addressbar

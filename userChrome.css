@@ -17,6 +17,7 @@
 @import url("./simpleMenuWizard/select-context.css");     /* ...selected text or selected object            */
 @import url("./simpleMenuWizard/sidebar-context.css");    /* ...items in bookmarks- or history sidebar      */
 @import url("./simpleMenuWizard/sidebar-header.css");     /* Leftclick on sidebar header                    */
+@import url("./simpleMenuWizard/source-context.css");     /* ...a blank area when viewing source code       */
 @import url("./simpleMenuWizard/tab-context.css");        /* ...a tab                                       */
 @import url("./simpleMenuWizard/toolbar-context.css");    /* ...the toolbar or tabbar                       */
 @import url("./simpleMenuWizard/urlbar-context.css");     /* ...the addressbar                              */
