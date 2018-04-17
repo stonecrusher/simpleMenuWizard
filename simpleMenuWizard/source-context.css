@@ -1,0 +1,33 @@
+/*AGENT_SHEET*/
+
+/*********************************************************************************************
+  simpleMenuWizard: Firefox 57+ userChrome.css tweaks to remove context menu items.
+  https://github.com/stonecrusher/simpleMenuWizard
+**********************************************************************************************
+
+/*** blank-context.css ***/
+/* Note: Check out blank-context.css, it is very similar and more detailed. */
+
+/* #context-navigation,                                    /* Hide whole navigation bar */
+/* #context-sep-navigation,                                /********* Separator *********/
+
+/* #contentAreaContextMenu menuitem[generateditemid="1"],  /* Go to Line…               */
+/* #contentAreaContextMenu menuitem[generateditemid="2"],  /* Wrap Long Lines           */
+/* #contentAreaContextMenu menuitem[generateditemid="3"],  /* Syntax Highlighting       */
+
+/* #page-menu-separator,                                   /********* Separator *********/
+/* #context-savepage,                                      /* Save Page As...           */
+/* #context-pocket,                                        /* Save Page to Pocket       */
+/* #context-sep-sendpagetodevice,                          /********* Separator *********/
+/* #context-sendpagetodevice,                              /* Send Page to Device       */
+/* #context-sep-viewbgimage,                               /********* Separator *********/
+/* #context-viewbgimage,                                   /* View Background Image     */
+/* #context-selectall,                                     /* Select All                */
+/* #context-context-sep-viewsource,                        /********* Separator *********/
+/* #context-viewsource,                                    /* View Page Source          */
+/* #context-viewinfo,                                      /* View Page Info            */
+/* #inspect-separator,                                     /********* Separator *********/
+/* #context-inspect,                                       /* Inspect Element (Q)       */
+
+#leave_this_dummy_here
+    { display:none !important; }
