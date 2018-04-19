@@ -70,6 +70,11 @@ Open the old `userChrome.css` which is filled with foreign code and add `@import
 
 You can now edit `simpleMenuWizard.css` for a general overview and some options or continue with [step 5](https://github.com/stonecrusher/simpleMenuWizard#instructions).
 
+## Uninstall simpleMenuWizard
+
+Delete all the files and folders that came with this project.  
+So if you don't use other modifications, you can simply delete the whole *[...]\\**profile.folder**\chrome\\* directory.
+
 ## To do
 Menus not included yet:
 * Main titlebar menus (oldschool menu opening with `alt` key) (`#main-menubar`)
