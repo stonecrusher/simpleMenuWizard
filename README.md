@@ -11,8 +11,7 @@ This project is inspired by [this post on reddit](https://www.reddit.com/r/firef
 To **remove entries from the context menu** you need to
 
 1. Find your **profile folder** (profile names are different for everyone):  
-   Address bar > Enter `about:support` > Click `Open Folder`  
-   or `Shift + F2` to open Firefox's command line, then enter the command `folder openprofile`.
+   Address bar > Enter `about:support` > Click `Open Folder`.
 
 2. [Download this project](https://github.com/stonecrusher/simpleMenuWizard/archive/master.zip) and unzip it.
 
@@ -44,8 +43,7 @@ To **remove entries from the context menu** you need to
     * `urlbar-context.css` when right-clicking on the addressbar
     * `urlbar-pageaction.css` when left-clicking the three dots in the addressbar
 
-6. Restart Firefox to make changes work.  
-   Hint: A nice way to restart is via Firefox's command line. Press `Shift + F2`, type `restart`, press enter.
+6. Restart Firefox to make changes work.
 
 Important notes:
  * All options are disabled by default, so if you don't edit the files, nothing will happen.
