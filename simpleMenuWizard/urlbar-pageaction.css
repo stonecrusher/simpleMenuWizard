@@ -7,13 +7,17 @@
 
 /*** urlbar-pageaction.css ***/
 
-/* #pageAction-panel-bookmark,           /* Bookmark This Page  */
-/* #pageAction-panel-pocket,             /* Save Page to Pocket */
-/* #pageAction-panel-bookmarkSeparator,  /****** Separator ******/
-/* #pageAction-panel-copyURL,            /* Copy Link           */
-/* #pageAction-panel-emailLink,          /* Email Link…         */
-/* #pageAction-panel-sendToDevice,       /* Send Tab to Device  */
-/* #pageAction-panel-screeenshots,       /* Take a Screenshot   */
+/* #pageAction-panel-bookmark,                  /* Bookmark This Page   */
+/* #pageAction-panel-pocket,                    /* Save Page to Pocket  */
+/* #pageAction-panel-bookmarkSeparator,         /****** Separator *******/
+/* #pageAction-panel-copyURL,                   /* Copy Link            */
+/* #pageAction-panel-emailLink,                 /* Email Link…          */
+/* #pageAction-panel-sendToDevice,              /* Send Tab to Device   */
+/* #pageAction-panel-screenshots,               /* Take a Screenshot    */
+/* #pageAction-panel-builtInSeparator,          /****** Separator *******/
+/* #pageAction-panel-webcompat-reporter-button, /* Report Site Issue... */
+/* #pageAction-panel-transientSeparator,        /****** Separator *******/
+/* #pageAction-panel-addSearchEngine,           /* Add Search Engine    */
 
 #leave_this_dummy_here
     { display:none !important; }
