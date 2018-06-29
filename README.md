@@ -4,7 +4,7 @@ Hide default context menu items in Firefox 57 and later
 
 ---
 
-This project is inspired by [this post on reddit](https://www.reddit.com/r/firefox/comments/7dvtw0/guide_how_to_edit_your_context_menu/) and by [an issue](https://github.com/Aris-t2/CustomCSSforFx/issues/76) in the great [CustomCSSforFx](https://github.com/Aris-t2/CustomCSSforFx/issues/2) project.
+This project is inspired by this [post on reddit](https://www.reddit.com/r/firefox/comments/7dvtw0/guide_how_to_edit_your_context_menu/) and by [an issue](https://github.com/Aris-t2/CustomCSSforFx/issues/76) in the great [CustomCSSforFx](https://github.com/Aris-t2/CustomCSSforFx/issues/2) project.
 
 ## Instructions
 
@@ -45,18 +45,18 @@ To **remove entries from the context menu** you need to
 
 6. Restart Firefox to make changes work.
 
-Important notes:
- * All options are disabled by default, so if you don't edit the files, nothing will happen.
- * Items that appear in different contexts with the same ID will disappear in all those contexts when activated only once. This is because many menus internally share the same very big context menu and are separated here for more convenience.  
+**Important notes:**
+ * All *options are disabled by default*, so if you don't edit the files, nothing will happen.
+ * Items that appear in different contexts with the same ID will disappear in all those contexts when *activated only once*. This is because many menus internally share the same very big context menu and are separated here for more convenience.  
    For specific problems please [open an issue](https://github.com/stonecrusher/simpleMenuWizard/issues), there may be workarounds.
 
 ## Hide Pocket / Sync / Screenshots
-If you don't use either of those "internal addons" at all, you can just disable them, which will also remove their context menu entries everywhere. So you don't have to do it manually.
+If you don't use either of those "internal addons" at all, you can just disable them, which will also remove their context menu entries everywhere.
 
 How to do it: Set the respective value in `about:config`.
 
 - For Pocket, load `about:config?filter=extensions.pocket.enabled` into addressbar and switch to `false`.
-- For Sync, load `about:config?filter=identity.fxaccounts.enabled` into addressbar and switch to `false` (only available in FF60 or higher).
+- For Sync, load `about:config?filter=identity.fxaccounts.enabled` into addressbar and switch to `false`.
 - For Screenshots, load `about:config?filter=extensions.screenshots.disabled` into addressbar and switch to `true`.
 
 ## Using simpleMenuWizard together with other custom modifications
@@ -75,7 +75,7 @@ So if you don't use other modifications, you can simply delete the whole *[...]\
 
 ## To do
 Menus not included yet:
-* Main titlebar menus (oldschool menu opening with `alt` key) (`#main-menubar`)
+* Main titlebar menus (oldschool menu opening with `Alt` key) (`#main-menubar`)
 
 ## Contribute
 For bugreports and missing items you're welcome to [open an issue here](https://github.com/stonecrusher/simpleMenuWizard/issues) or make a pull request.
