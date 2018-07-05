@@ -33,6 +33,7 @@ To **remove entries from the context menu** you need to
     * `input-context.css` when right-clicking on an input-field
     * `link-context.css` when right-clicking on a link
     * `main-hamburger.css` when left-clicking on the menu **hamburger on top right**
+    * `main-menubar.css` when left-clicking on the main menubar (open with ALT key - file, edit, view, ...)
     * `media-context.css` when right-clicking on media like audio or html5 video
     * `select-context.css` when right-clicking on selected text or object
     * `sidebar-context.css` when right-clicking on items in bookmark- or history sidebar
@@ -72,10 +73,6 @@ You can now edit `simpleMenuWizard.css` for a general overview and some options 
 
 Delete all the files and folders that came with this project.  
 So if you don't use other modifications, you can simply delete the whole *[...]\\**profile.folder**\chrome\\* directory.
-
-## To do
-Menus not included yet:
-* Main titlebar menus (oldschool menu opening with `Alt` key) (`#main-menubar`)
 
 ## Contribute
 For bugreports and missing items you're welcome to [open an issue here](https://github.com/stonecrusher/simpleMenuWizard/issues) or make a pull request.
