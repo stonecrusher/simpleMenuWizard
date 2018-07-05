@@ -32,17 +32,17 @@ To **remove entries from the context menu** you need to
     * `image-context.css` when right-clicking on an image
     * `input-context.css` when right-clicking on an input-field
     * `link-context.css` when right-clicking on a link
-    * `main-hamburger.css` when left-clicking on the menu **hamburger on top right**
-    * `main-menubar.css` when left-clicking on the main menubar (open with ALT key - file, edit, view, ...)
+    * `main-hamburger.css` when **left**-clicking on the three lines on top right
+    * `main-menubar.css` when **left**-clicking on the main menubar (open with ALT key - file, edit, view, ...)
     * `media-context.css` when right-clicking on media like audio or html5 video
     * `select-context.css` when right-clicking on selected text or object
     * `sidebar-context.css` when right-clicking on items in bookmark- or history sidebar
-    * `sidebar-header.css` when left-clicking the sidebar dropdown menu
+    * `sidebar-header.css` when **left**-clicking the sidebar dropdown menu
     * `source-context.css` when right-clicking a blank area on view-source pages
     * `tab-context.css` when right-clicking on a tab
     * `toolbar-context.css` when right-clicking on toolbar or tabbar
     * `urlbar-context.css` when right-clicking on the addressbar
-    * `urlbar-pageaction.css` when left-clicking the three dots in the addressbar
+    * `urlbar-pageaction.css` when **left**-clicking the three dots in the addressbar
 
 6. Restart Firefox to make changes work.
 
