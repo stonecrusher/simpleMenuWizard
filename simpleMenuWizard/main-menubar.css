@@ -66,7 +66,7 @@
 /* #menu_pageStylePersistentOnly,                   /* Basic Page Style               */
 /* #charsetMenu,                                /* Text Encoding                  */
 /* #charsetMenu menu:first-of-type[accesskey="D"],  /* Auto-Detect                    */
-/* #charsetMenu menu:first-of-type[accesskey="D"] 
+/* #charsetMenu menu:first-of-type[accesskey="D"]
        menuitem[detector=""][accesskey="o"],            /* (off)                          */
 /* #charsetMenu menu:first-of-type[accesskey="D"]
        menuitem[detector="ja_parallel_state_machine"],  /* Japanese                       */
@@ -133,7 +133,7 @@
 /* #menu_unsortedBookmarks,                     /* Other Bookmarks                */
 /* #menu_mobileBookmarks,                       /* Mobile Bookmarks               */
 /* #bookmarksMenuItemsSeparator,                /*********** Separator ************/
-/* #bookmarksMenuItemsSeparator 
+/* #bookmarksMenuItemsSeparator
        + menuseparator + menu,                  /* Recent Tags                    */
 /* #bookmarksMenuItemsSeparator
        ~ menuseparator.small-separator,         /*********** Separator ************/
