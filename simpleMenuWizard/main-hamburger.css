@@ -6,7 +6,11 @@
 **********************************************************************************************
 
 /*** main-hamburger.css ***/
-
+/* #appMenu-fxa-container
+    + toolbaritem[closemenu="none"],                  /* Tracking protection (TP) */
+/* #appMenu-tp-label,                                     /* TP options button */
+/* #appMenu-tp-label + toolbarseparator,                  /* TP separator */
+/* #appMenu-tp-toggle,                                    /* TP switch */
 /* #appMenu-mainView .panel-banner-item,              /* Download Firefox update / Download a fresh copy of Firefox / Restart to update Firefox */
 /* #appMenu-fxa-container,                            /* Sign in to Sync / Open Sync preferences / Reconnect to Sync */
 /* #appMenu-fxa-container + toolbarseparator,         /**** Separator ****/
