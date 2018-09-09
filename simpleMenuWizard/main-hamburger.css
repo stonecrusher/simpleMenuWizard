@@ -6,14 +6,17 @@
 **********************************************************************************************
 
 /*** main-hamburger.css ***/
-/* #appMenu-fxa-container
+/* #appMenu-mainView .panel-banner-item,              /* Download Firefox update / Download a fresh copy of Firefox / Restart to update Firefox */
+/* #appMenu-fxa-container,                            /* Sign in to Sync / Open Sync preferences / Reconnect to Sync */
+/* #appMenu-mainView toolbarseparator.sync-ui-item,   /**** Separator ****/
+/* #appMenu-mainView toolbarseparator.sync-ui-item
     + toolbaritem[closemenu="none"],                  /* Tracking protection (TP) */
 /* #appMenu-tp-label,                                     /* TP options button */
 /* #appMenu-tp-label + toolbarseparator,                  /* TP separator */
 /* #appMenu-tp-toggle,                                    /* TP switch */
-/* #appMenu-mainView .panel-banner-item,              /* Download Firefox update / Download a fresh copy of Firefox / Restart to update Firefox */
-/* #appMenu-fxa-container,                            /* Sign in to Sync / Open Sync preferences / Reconnect to Sync */
-/* #appMenu-fxa-container + toolbarseparator,         /**** Separator ****/
+/* #appMenu-mainView toolbarseparator.sync-ui-item
+    + toolbaritem[closemenu="none"]
+    + toolbarseparator,                               /**** Separator ****/
 /* #appMenu-new-window-button,                        /* New Window */
 /* #appMenu-private-window-button,                    /* New Private Window */
 /* #appMenuRestoreLastSession,                        /* Restore Previous Session */
