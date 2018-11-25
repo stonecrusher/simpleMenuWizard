@@ -38,8 +38,11 @@
    https://github.com/stonecrusher/simpleMenuWizard#hide-pocket--sync--screenshots
 */
 
-/* If you use uBlock Origin and want to remove all uBO context menu entries */
+/*** If you use uBlock Origin and want to remove all uBO context menu entries ***/
 /* @import url("./simpleMenuWizard/opt_uBO.css");
+
+/*** Hide all "Send <item> to Device" entries ***/
+/* @import url("./simpleMenuWizard/opt_noSendToDevice.css");
 
 /*** Hide all inactive menu items ***/
 /* #mainPopupSet menuitem[disabled="true"] { display: none !important; }
