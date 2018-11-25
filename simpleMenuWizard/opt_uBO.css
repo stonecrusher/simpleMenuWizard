@@ -7,8 +7,7 @@
 
 /*** opt_uBO.css ***/
 
-#context-contentAreaContextMenu
-       > menuseparator:nth-child(92),          /************ Separator ************/
-                                               /* some contexts: Take Screenshot  */
-#ublock0_raymondhill_net_uBlock0-blockElement  /* Block element (by uBlock addon) */
+#context-media-eme-learnmore + menuseparator,            /************ Separator ************/
+#ublock0_raymondhill_net_uBlock0-blockElement,           /* Block element (old) */
+#ublock0_raymondhill_net-menuitem-_uBlock0-blockElement  /* Block element (new) */
     { display: none !important; }
