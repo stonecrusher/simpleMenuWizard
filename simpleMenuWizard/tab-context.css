@@ -8,23 +8,27 @@
 /*** tab-context.css ***/
 
 /* #tabContextMenu #context_reloadTab,                        /* Reload Tab              */
+/* #tabContextMenu #context_reloadSelectedTabs,               /* Reload Tabs             */
 /* #tabContextMenu #context_toggleMuteTab,                    /* Mute / Unmute Tab       */
-/* #tabContextMenu #context_toggleMuteTab + menuseparator,    /******** Separator ********/
+/* #tabContextMenu #context_toggleMuteSelectedTabs,           /* Mute / Unmute Tabs      */
 /* #tabContextMenu #context_pinTab,                           /* Pin Tab                 */
 /* #tabContextMenu #context_unpinTab,                         /* Unpin Tab               */
+/* #tabContextMenu #context_pinSelectedTabs,                  /* Pin Tabs                */
+/* #tabContextMenu #context_unpinSelectedTabs,                /* Unpin Tabs              */
 /* #tabContextMenu #context_duplicateTab,                     /* Duplicate Tab           */
+/* #tabContextMenu #context_duplicateTab + menuseparator,     /******** Separator ********/
+/* #tabContextMenu #context_selectAllTabs,                    /* Select All Tabs         */
+/* #tabContextMenu #context_bookmarkSelectedTabs,             /* Bookmark Tabs…          */
+/* #tabContextMenu #context_bookmarkTab,                      /* Bookmark Tab            */
 /* #tabContextMenu #context_reopenInContainer,                /* Reopen in Container     */
-/* #tabContextMenu #context_openTabInWindow,                  /* Move to New Window      */
-/* #tabContextMenu #context_sendTabToDevice_separator,        /******** Separator ********/
+/* #tabContextMenu #context_moveTabOptions,                   /* Move Tab(s)             */
 /* #tabContextMenu #context_sendTabToDevice,                  /* Send Tab to Device      */
 /* #tabContextMenu #context_sendTabToDevice + menuseparator,  /******** Separator ********/
-/* #tabContextMenu #context_reloadAllTabs,                    /* Reload All Tabs         */
-/* #tabContextMenu #context_bookmarkAllTabs,                  /* Bookmarks All Tabs...   */
 /* #tabContextMenu #context_closeTabsToTheEnd,                /* Close Tabs to the Right */
 /* #tabContextMenu #context_closeOtherTabs,                   /* Close Other Tabs        */
-/* #tabContextMenu #context_closeOtherTabs + menuseparator,   /******** Separator ********/
 /* #tabContextMenu #context_undoCloseTab,                     /* Undo Close Tab          */
 /* #tabContextMenu #context_closeTab,                         /* Close Tab               */
+/* #tabContextMenu #context_closeSelectedTabs,                /* Close Tabs              */
 
 #leave_this_dummy_here
     { display:none !important; }
