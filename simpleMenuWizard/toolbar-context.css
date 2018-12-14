@@ -8,11 +8,18 @@
 /*** toolbar-context.css ***/
 
 /*** All toolbars share one context menu, but show different items ***/
-
+/* #toolbar-context-menu .customize-context-manageExtension,             /* Manage Extension                 */
+/* #toolbar-context-menu .customize-context-removeExtension,             /* Remove Extension                 */
+/* #toolbar-context-menu .customize-context-removeExtension
+    + menuseparator                                                      /************ Seperator *************/
 /* #toolbar-context-menu .customize-context-moveToPanel,                 /* Pin to Overflow Menu             */
+/* #toolbar-context-menu .customize-context-autoHide,                    /* Auto-Hide in Toolbar             */
 /* #toolbar-context-menu .customize-context-removeFromToolbar,           /* Remove from Toolbar              */
-/* #toolbar-context-menu #toolbar-context-reloadAllTabs,                 /* Reload All Tabs                  */
-/* #toolbar-context-menu #toolbar-context-bookmarkAllTabs,               /* Bookmark All Tabs                */
+/* #toolbar-context-menu #toolbar-context-reloadSelectedTab,             /* Reload Selected Tab              */
+/* #toolbar-context-menu #toolbar-context-reloadSelectedTabs,            /* Reload Selected Tabs             */
+/* #toolbar-context-menu #toolbar-context-bookmarkSelectedTab,           /* Bookmark Selected Tab…           */
+/* #toolbar-context-menu #toolbar-context-bookmarkSelectedTabs,          /* Bookmark Selected Tabs…          */
+/* #toolbar-context-menu #toolbar-context-selectAllTabs,                 /* Select All Tabs                  */
 /* #toolbar-context-menu #toolbar-context-undoCloseTab,                  /* Undo Close Tab                   */
 /* #toolbar-context-menu #toolbar-context-undoCloseTab + menuseparator,  /************ Seperator *************/
 /* #toolbar-context-menu #toggle_toolbar-menubar,                        /* Menu Bar (toggle)                */
