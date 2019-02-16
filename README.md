@@ -16,7 +16,7 @@ To **remove entries from the context menu** you need to
 2. [Download this project](https://github.com/stonecrusher/simpleMenuWizard/archive/master.zip) and unzip it.
 
 3. Move `userChrome.css` and `simpleMenuWizard` into *[...]\\**profile.folder**\chrome\\* directory.  
-   If chrome folder doesn't exist, create it.  
+   If `chrome` folder doesn't exist, create it.  
    If `userChrome.css` already exists, do *not* overwrite and proceed [here](https://github.com/stonecrusher/simpleMenuWizard#using-simplemenuwizard-together-with-other-custom-modifications).
 
 4. Open `userChrome.css` with a texteditor for a general overview and some options.
