@@ -23,6 +23,9 @@
 /* #menu_printPreview,                          /* Print Preview                  */
 /* #menu_print,                                 /* Print…                         */
 /* #menu_print + menuseparator,                 /*********** Separator ************/
+/* #menu_importFromAnotherBrowser,              /* Import from Another Browser…   */
+/* #menu_importFromAnotherBrowser
+        + menuseparator,                        /*********** Separator ************/
 /* #goOfflineMenuitem,                          /* Work Offline                   */
 /* #menu_FileQuitItem,                          /* Exit                           */
 
@@ -47,7 +50,6 @@
 /* #toggle_toolbar-menubar,                         /* Menu Bar                       */
 /* #toggle_PersonalToolbar,                         /* Bookmarks Toolbar              */
 /* #toggle_PersonalToolbar + menuseparator,         /*********** Separator ************/
-/* #toggle_PersonalToolbar,                         /* Bookmarks Toolbar              */
 /* #menu_customizeToolbars,                         /* Customize…                     */
 /* #viewSidebarMenuMenu,                        /* Sidebar                        */
 /* #menu_bookmarksSidebar,                          /* Bookmarks                      */
@@ -125,8 +127,6 @@
 /* #bookmarksShowAll,                           /* Show All Bookmarks             */
 /* #organizeBookmarksSeparator,                 /*********** Separator ************/
 /* #menu_bookmarkThisPage,                      /* Bookmark This Page             */
-/* #subscribeToPageMenuitem,                    /* Subscribe to This Page…        */
-/* #subscribeToPageMenupopup,                   /* Subscribe to This Page         */
 /* #menu_bookmarkAllTabs,                       /* Bookmark all Tabs…             */
 /* #bookmarksToolbarSeparator,                  /*********** Separator ************/
 /* #bookmarksToolbarFolderMenu,                 /* Bookmarks Toolbar              */
@@ -134,7 +134,7 @@
 /* #menu_mobileBookmarks,                       /* Mobile Bookmarks               */
 /* #bookmarksMenuItemsSeparator,                /*********** Separator ************/
 /* #bookmarksMenuItemsSeparator
-       + menuseparator + menu,                  /* Recent Tags                    */
+       + menuseparator[hidden] + menu,          /* Recent Tags                    */
 /* #bookmarksMenuItemsSeparator
        ~ menuseparator.small-separator,         /*********** Separator ************/
 
@@ -156,8 +156,9 @@
 /* #menuitem_performance,                           /* Performance                    */
 /* #menuitem_netmonitor,                            /* Network                        */
 /* #menuitem_storage,                               /* Storage Inspector              */
+/* #menuitem_accessibility,                         /* Accessibility                  */
+/* #menu_webreplay,                                 /* Web Replay                     */
 /* #menu_devtools_separator,                        /*********** Separator ************/
-/* #menu_devToolbar,                                /* Developer Toolbar              */
 /* #menu_webide,                                    /* WebIDE                         */
 /* #menu_browserToolbox,                            /* Browser Toolbox                */
 /* #menu_browserContentToolbox,                     /* Browser Content Toolbox        */

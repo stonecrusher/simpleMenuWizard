@@ -9,14 +9,8 @@
 /* #appMenu-mainView .panel-banner-item,              /* Download Firefox update / Download a fresh copy of Firefox / Restart to update Firefox */
 /* #appMenu-fxa-container,                            /* Sign in to Sync / Open Sync preferences / Reconnect to Sync */
 /* #appMenu-mainView toolbarseparator.sync-ui-item,   /**** Separator ****/
-/* #appMenu-mainView toolbarseparator.sync-ui-item
-    + toolbaritem[closemenu="none"],                  /* Tracking protection (TP) */
-/* #appMenu-tp-label,                                     /* TP options button */
-/* #appMenu-tp-label + toolbarseparator,                  /* TP separator */
-/* #appMenu-tp-toggle,                                    /* TP switch */
-/* #appMenu-mainView toolbarseparator.sync-ui-item
-    + toolbaritem[closemenu="none"]
-    + toolbarseparator,                               /**** Separator ****/
+/* #appMenu-tp-button,                                /* Content Blocking */
+/* #appMenu-tp-separator,                             /**** Separator ****/
 /* #appMenu-new-window-button,                        /* New Window */
 /* #appMenu-private-window-button,                    /* New Private Window */
 /* #appMenuRestoreLastSession,                        /* Restore Previous Session */
@@ -68,6 +62,7 @@
 /* #appMenu-library-screenshots + toolbarseparator,       /**** Separator ****/
 /* #appMenu-library-screenshots ~ label.subview-header,   /* Recent Highlights label */
 /* #appMenu-library-recentHighlights,                     /* Recent Highlights items */
+/* #appMenu-logins-button,                            /* Logins and Passwords */
 /* #appMenu-addons-button,                            /* Add-ons */
 /* #appMenu-preferences-button,                       /* Options */
 /* #appMenu-customize-button,                         /* Customize… */
@@ -89,9 +84,9 @@
 /* #PanelUI-developerItems > [key="key_performance"],     /* Performance */
 /* #PanelUI-developerItems > [key="key_netmonitor"],      /* Network */
 /* #PanelUI-developerItems > [key="key_storage"],         /* Storage Inspector */
-/* #PanelUI-developerItems > [key="key_storage"]
+/* #PanelUI-developerItems > [key="key_accessibility"],   /* Accessibility */
+/* #PanelUI-developerItems > [key="key_accessibility"]
        + menuseparator,                                   /**** Separator ****/
-/* #PanelUI-developerItems > [key="key_toggleToolbar"],   /* Developer Toolbar */
 /* #PanelUI-developerItems > [key="key_webide"],          /* WebIDE */
 /* #PanelUI-developerItems > [key="key_browserToolbox"],  /* Browser Toolbox */
 /* #PanelUI-developerItems > [key="key_browserToolbox"]

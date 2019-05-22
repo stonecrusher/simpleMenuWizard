@@ -16,9 +16,9 @@
 /* #tabContextMenu #context_pinSelectedTabs,                  /* Pin Tabs                */
 /* #tabContextMenu #context_unpinSelectedTabs,                /* Unpin Tabs              */
 /* #tabContextMenu #context_duplicateTab,                     /* Duplicate Tab           */
-/* #tabContextMenu #context_duplicateTab + menuseparator,     /***** Separator ***********/
-/* #tabContextMenu #context_duplicateTabs,                    /* Duplicate Tabs (FF67+)  */
-/* #tabContextMenu #context_duplicateTabs + menuseparator,    /***** Separator (FF67+) ***/
+/* #tabContextMenu #context_duplicateTab + menuseparator,     /******** Separator ********/
+/* #tabContextMenu #context_duplicateTabs,                    /* Duplicate Tabs          */
+/* #tabContextMenu #context_duplicateTabs + menuseparator,    /******** Separator ********/
 /* #tabContextMenu #context_selectAllTabs,                    /* Select All Tabs         */
 /* #tabContextMenu #context_bookmarkSelectedTabs,             /* Bookmark Tabs…          */
 /* #tabContextMenu #context_bookmarkTab,                      /* Bookmark Tab            */
