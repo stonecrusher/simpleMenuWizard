@@ -73,6 +73,7 @@ You can now edit `simpleMenuWizard.css` for a general overview and some options 
 
 Delete all the files and folders that came with this project.  
 So if you don't use other modifications, you can simply delete the whole *[...]\\**profile.folder**\chrome\\* directory.
+Restart your browser.
 
 ## Contribute
 For bugreports and missing items you're welcome to [open an issue here](https://github.com/stonecrusher/simpleMenuWizard/issues) or make a pull request.
