@@ -44,7 +44,9 @@ To **remove entries from the context menu** you need to
     * `urlbar-context.css` when right-clicking on the addressbar
     * `urlbar-pageaction.css` when **left**-clicking the three dots in the addressbar
 
-6. Restart Firefox to make changes work.
+6. Load `about:config?filter=toolkit.legacyUserProfileCustomizations.stylesheets` into addressbar and toggle the value to `true`.
+
+7. Restart Firefox to make changes work.
 
 **Important notes:**
  * All *options are disabled by default*, so if you don't edit the files, nothing will happen.
