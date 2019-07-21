@@ -8,6 +8,7 @@
 /*** media-context.css ***/
 
 /* #context-media-play,               /* Play                            */
+/* #context-media-pause,              /* Pause                           */
 /* #context-media-mute,               /* Mute                            */
 /* #context-media-unmute,             /* Unmute                          */
 /* #context-media-playbackrate,       /* Play Speed                      */
@@ -21,12 +22,17 @@
 /* #context-media-hidecontrols,       /* Hide Controls                   */
 /* #context-video-fullscreen,         /* Full Screen                     */
 /* #context-leave-dom-fullscreen,     /* Exit Full Screen                */
+/* #context-video-pictureinpicture,   /* Picture-in-picture              */
 /* #context-media-sep-commands,       /************ Separator ************/
+/* #context-viewvideo,                /* View Video                      */
 /* #context-copyvideourl,             /* Copy Video Location             */
 /* #context-copyaudiourl,             /* Copy Audio Location             */
 /* #context-sep-copyimage,            /************ Separator ************/
-/* #context-saveaudio,                /* Save Audio As...                */
-/* #context-sendaudio,                /* Email Audio...                  */
+/* #context-savevideo,                /* Save Video As…                  */
+/* #context-saveaudio,                /* Save Audio As…                  */
+/* #context-video-saveimage,          /* Save Snapshot As…               */
+/* #context-sendvideo,                /* Email Video…                    */
+/* #context-sendaudio,                /* Email Audio…                    */
 /* #inspect-separator,                /************ Separator ************/
 /* #context-inspect,                  /* Inspect Element (Q)             */
 
