@@ -1,10 +1,7 @@
 # simpleMenuWizard
-
-Hide default context menu items in Firefox 57 and later
+Hide default context menu items in Firefox 57 and later (latest FF release version)
 
 ---
-
-This project is inspired by this [post on reddit](https://www.reddit.com/r/firefox/comments/7dvtw0/guide_how_to_edit_your_context_menu/) and by [an issue](https://github.com/Aris-t2/CustomCSSforFx/issues/76) in the great [CustomCSSforFx](https://github.com/Aris-t2/CustomCSSforFx/issues/2) project.
 
 ## Instructions
 
@@ -23,7 +20,7 @@ To **remove entries from the context menu** you need to
 
 5. Open the `simpleMenuWizard` directory and edit each .css file (except beginning with `opt_`) to customize them to your needs.  
   **Activate** option to **remove** menu item: Remove `/*` at the beginning of the line.  
-  **Deactivate** option to **leave** menu item: Add `/*` at the beginning of the line.
+  **Deactivate** option to **leave** menu item: Add `/*` to the beginning of the line (by default every option is deactivated).
 
     Each file is for another context:
 
@@ -79,3 +76,7 @@ Restart your browser.
 
 ## Contribute
 For bugreports and missing items you're welcome to [open an issue here](https://github.com/stonecrusher/simpleMenuWizard/issues) or make a pull request.
+
+## Motivation
+Tidy up your context menus, be faster, have a cleaner UI!
+This project is inspired by [BubiBalboa's post on reddit](https://www.reddit.com/r/firefox/comments/7dvtw0/guide_how_to_edit_your_context_menu/) and by [an issue](https://github.com/Aris-t2/CustomCSSforFx/issues/76) in the great [CustomCSSforFx](https://github.com/Aris-t2/CustomCSSforFx/issues/2) project.
