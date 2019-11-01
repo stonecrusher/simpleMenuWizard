@@ -7,9 +7,10 @@
 
 /*** main-hamburger.css ***/
 /* #appMenu-mainView .panel-banner-item,              /* Download Firefox update / Download a fresh copy of Firefox / Restart to update Firefox */
-/* #appMenu-fxa-container,                            /* Sign in to Sync / Open Sync preferences / Reconnect to Sync */
+/* #appMenu-fxa-status,                               /* Sign in to Sync / Open Sync preferences / Reconnect to Sync */
 /* #appMenu-mainView toolbarseparator.sync-ui-item,   /**** Separator ****/
-/* #appMenu-tp-button,                                /* Content Blocking */
+/* #appMenu-protection-report-button,                 /* Privacy Protections */
+/* #appMenu-tp-button,                                /* Content Blocking - FF70 deprecated? */
 /* #appMenu-tp-separator,                             /**** Separator ****/
 /* #appMenu-new-window-button,                        /* New Window */
 /* #appMenu-private-window-button,                    /* New Private Window */
@@ -73,6 +74,7 @@
 /* #appMenu-print-button + toolbarseparator,          /**** Separator ****/
 /* #appMenu-find-button,                              /* Find in This Page… */
 /* #appMenu-more-button,                              /* More */
+/* #appMenu-taskmanager-button,                           /* Task Manager */
 /* #appMenu-characterencoding-button,                     /* Text Encoding */
 /* #appMenu-workoffline-button,                           /* Work Offline */
 /* #appMenu-developer-button,                         /* Web Developer */
@@ -80,14 +82,15 @@
 /* #PanelUI-developerItems > [key="key_inspector"],       /* Inspector */
 /* #PanelUI-developerItems > [key="key_webconsole"],      /* Web Console */
 /* #PanelUI-developerItems > [key="key_jsdebugger"],      /* Debugger */
+/* #PanelUI-developerItems > [key="key_netmonitor"],      /* Network */
 /* #PanelUI-developerItems > [key="key_styleeditor"],     /* Style Editor */
 /* #PanelUI-developerItems > [key="key_performance"],     /* Performance */
-/* #PanelUI-developerItems > [key="key_netmonitor"],      /* Network */
 /* #PanelUI-developerItems > [key="key_storage"],         /* Storage Inspector */
 /* #PanelUI-developerItems > [key="key_accessibility"],   /* Accessibility */
 /* #PanelUI-developerItems > [key="key_accessibility"]
        + menuseparator,                                   /**** Separator ****/
-/* #PanelUI-developerItems > [key="key_webide"],          /* WebIDE */
+/* #PanelUI-developerItems > [key="key_accessibility"]
+       + menuseparator + .subviewbutton:not([key]),       /* Remote Debugging */
 /* #PanelUI-developerItems > [key="key_browserToolbox"],  /* Browser Toolbox */
 /* #PanelUI-developerItems > [key="key_browserToolbox"]
        + .subviewbutton:not([key]),                       /* Browser Content Toolbox */
@@ -98,10 +101,6 @@
        > [key="key_responsiveDesignMode"] 
        + .subviewbutton:not([key]),                       /* Eyedropper */
 /* #PanelUI-developerItems > [key="key_scratchpad"],      /* Scratchpad */
-/* #PanelUI-developerItems > [key="key_scratchpad"]
-       + .subviewbutton:not([key]):nth-of-type(1),        /* Service Workers */
-/* #PanelUI-developerItems > [key="key_scratchpad"]
-       + .subviewbutton:not([key]):nth-of-type(2),        /* Connect… */
 /* #PanelUI-developerItems > [key="key_viewSource"],      /* Page Source */
 /* #PanelUI-developerItems > [key="key_viewSource"]
        + menuseparator,                                   /**** Separator ****/
@@ -112,13 +111,13 @@
        ~ menuseparator:last-of-type,                      /**** Separator ****/
 /* #PanelUI-developerItems > [key="key_viewSource"]
        ~ .subviewbutton:last-of-type,                     /* Work offline */
+/* #appMenu-whatsnew-button,                          /* What's New */
 /* #appMenu-help-button,                              /* Help */
 /* #PanelUI-helpView
        [oncommand^="openHelpLink('firefox-help')"],        /* Firefox Help */
 /* #PanelUI-helpView [oncommand^="openTourPage()"],        /* Firefox Tour */
 /* #PanelUI-helpView
        [oncommand^="openHelpLink('keyboard-shortcuts')"],  /* Keyboard Shortcuts */
-/* #PanelUI-helpView [oncommand^="openHealthReport()"],    /* Firefox Health Report */
 /* #PanelUI-helpView
        [oncommand^="openTroubleshootingPage()"],           /* Troubleshooting Information */
 /* #PanelUI-helpView [oncommand^="openFeedbackPage()"],    /* Submit Feedback… */
