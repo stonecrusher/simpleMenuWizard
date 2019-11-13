@@ -53,11 +53,11 @@ To **remove entries from the context menu** you need to
 ## Hide Pocket / Sync / Screenshots
 If you don't use either of those "internal addons" at all, you can just disable them, which will also remove their context menu entries everywhere.
 
-How to do it: Set the respective value in `about:config`.
+How to do it: Load `about:config` into addressbar and set the respective value.
 
-- For Pocket, load `about:config?filter=extensions.pocket.enabled` into addressbar and switch to `false`.
-- For Sync, load `about:config?filter=identity.fxaccounts.enabled` into addressbar and switch to `false`.
-- For Screenshots, load `about:config?filter=extensions.screenshots.disabled` into addressbar and switch to `true`.
+- Pocket: Search for `extensions.pocket.enabled` and switch to `false`.
+- Sync: Search for `identity.fxaccounts.enabled` and switch to `false`.
+- Screenshots: Search for `extensions.screenshots.disabled` and switch to `true`.
 
 ## Using simpleMenuWizard together with other custom modifications
 
