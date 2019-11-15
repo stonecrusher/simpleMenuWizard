@@ -8,7 +8,7 @@ Hide default context menu items in Firefox 57 and later (latest FF release versi
 To **remove entries from the context menu** you need to
 
 1. Find your **profile folder** (profile names are different for everyone):  
-   Address bar > Enter `about:support` > Click `Open Folder`.
+   Address bar > Enter `about:support` > Click `Open Folder` (second one, not the "Update Folder").
 
 2. [Download this project](https://github.com/stonecrusher/simpleMenuWizard/archive/master.zip) and unzip it.
 
