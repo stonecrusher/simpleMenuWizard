@@ -7,14 +7,16 @@
 
 /*** sidebar-header.css ***/
 
-/* #sidebar-switcher-bookmarks,                         /* Bookmarks                        */
-/* #sidebar-switcher-history,                           /* History                          */
-/* #sidebar-switcher-tabs,                              /* Synced Tabs                      */
-/* #sidebarMenu-popup > toolbarseparator:nth-child(4),  /* Menu Separator                   */
-/* #sidebarMenu-popup > toolbarseparator:nth-child(6),  /* Menu Separator - After Add-ons   */
-/* #sidebar-reverse-position,                           /* Move Sidebar to Right/Left       */
-/* #sidebarMenu-popup > toolbarseparator:nth-child(8),  /* Menu Separator                   */
-/* toolbarbutton.subviewbutton:nth-child(9),            /* Close Sidebar                    */
+/* #sidebar-header,                                     /* Hide sidebar header completely (use shortcuts only) */
+
+/* #sidebar-switcher-bookmarks,                         /* Bookmarks                             */
+/* #sidebar-switcher-history,                           /* History                               */
+/* #sidebar-switcher-tabs,                              /* Synced Tabs                           */
+/* #sidebar-switcher-tabs + toolbarseparator,           /*************** Separator ***************/
+/* #sidebar-extensions-separator,                       /*** Separator (after possible addons) ***/
+/* #sidebar-reverse-position,                           /* Move Sidebar to Right / Left          */
+/* #sidebar-reverse-position + toolbarseparator,        /************** Separator ****************/
+/* toolbarbutton[oncommand="SidebarUI.hide()"],         /* Close Sidebar                         */
 
 #leave_this_dummy_here
     { display:none !important; }
