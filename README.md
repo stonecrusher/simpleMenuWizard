@@ -19,8 +19,8 @@ To **remove entries from the context menu** you need to
 4. Open `userChrome.css` with a texteditor for a general overview and some options.
 
 5. Open the `simpleMenuWizard` directory and edit each .css file (except beginning with `opt_`) to customize them to your needs.  
-  **Activate** option to **remove** menu item: Remove `/*` at the beginning of the line.  
-  **Deactivate** option to **leave** menu item: Add `/*` to the beginning of the line (by default every option is deactivated).
+  **Remove menu item**: Remove `/*` at the beginning of the line.  
+  **Leave menu item**: Add `/*` to the beginning of the line (by default every option is deactivated).
 
     Each file is for another context:
 
@@ -46,7 +46,7 @@ To **remove entries from the context menu** you need to
 7. Restart Firefox to make changes work.
 
 **Important notes:**
- * All *options are disabled by default*, so if you don't edit the files, nothing will happen.
+ * All *options and items are disabled by default*, so if you don't edit the files, nothing will happen.
  * Items that appear in different contexts with the same ID will disappear in all those contexts when *activated only once*. This is because many menus internally share the same very big context menu and are separated here for more convenience.  
    For specific problems please [open an issue](https://github.com/stonecrusher/simpleMenuWizard/issues), there may be workarounds.
 
@@ -79,4 +79,5 @@ For bugreports and missing items you're welcome to [open an issue here](https://
 
 ## Motivation
 Tidy up your context menus, be faster, have a cleaner UI!
+
 This project is inspired by [BubiBalboa's post on reddit](https://www.reddit.com/r/firefox/comments/7dvtw0/guide_how_to_edit_your_context_menu/) and by [an issue](https://github.com/Aris-t2/CustomCSSforFx/issues/76) in the great [CustomCSSforFx](https://github.com/Aris-t2/CustomCSSforFx/issues/2) project.
