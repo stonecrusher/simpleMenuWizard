@@ -27,7 +27,7 @@
 /* #appMenu-cut-button,                                   /* Cut */
 /* #appMenu-copy-button,                                  /* Copy */
 /* #appMenu-paste-button,                                 /* Paste */
-/* #appMenu-edit-controls,                            /**** Separator ****/
+/* #appMenu-edit-controls + toolbarseparator,         /**** Separator ****/
 /* #appMenu-library-button,                           /* Library */
 /* #appMenu-library-bookmarks-button,                     /* Bookmarks */
 /* #panelMenuBookmarkThisPage,                                /* Bookmark This Page */
