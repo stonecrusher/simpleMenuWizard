@@ -7,6 +7,11 @@
 
 /*** input-context.css ***/
 
+/* #spell-no-suggestions,                       /* (No Spelling Suggestions)        */
+/* menuitem.spell-suggestion,                   /* ~ List of spelling suggestions ~ */
+/* #spell-add-to-dictionary,                    /* Add To Dictionary                */
+/* #spell-undo-add-to-dictionary,               /* Undo Add To Dictionary           */
+/* #spell-suggestions-separator,                /************ Separator *************/
 /* #context-undo,                               /* Undo                             */
 /* #context-sep-undo,                           /************ Separator *************/
 /* #context-cut,                                /* Cut                              */
