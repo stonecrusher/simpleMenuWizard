@@ -16,18 +16,22 @@
 /* #tabContextMenu #context_pinSelectedTabs,                  /* Pin Tabs                */
 /* #tabContextMenu #context_unpinSelectedTabs,                /* Unpin Tabs              */
 /* #tabContextMenu #context_duplicateTab,                     /* Duplicate Tab           */
-/* #tabContextMenu #context_duplicateTab + menuseparator,     /******** Separator ********/
 /* #tabContextMenu #context_duplicateTabs,                    /* Duplicate Tabs          */
 /* #tabContextMenu #context_duplicateTabs + menuseparator,    /******** Separator ********/
 /* #tabContextMenu #context_selectAllTabs,                    /* Select All Tabs         */
 /* #tabContextMenu #context_bookmarkSelectedTabs,             /* Bookmark Tabs…          */
 /* #tabContextMenu #context_bookmarkTab,                      /* Bookmark Tab            */
 /* #tabContextMenu #context_reopenInContainer,                /* Reopen in Container     */
-/* #tabContextMenu #context_moveTabOptions,                   /* Move Tab(s)             */
+/* #tabContextMenu #context_moveTabOptions,                   /* Move Tab                */
+/* #tabContextMenu #context_moveToStart,                          /* Move to Start           */
+/* #tabContextMenu #context_moveToEnd,                            /* Move to End             */
+/* #tabContextMenu #context_openTabInWindow,                      /* Move to New Window      */
 /* #tabContextMenu #context_sendTabToDevice,                  /* Send Tab to Device      */
+/* #tabContextMenu #context_dummy,                                /* Send Tab to Device Submenu not yet supported */
 /* #tabContextMenu #context_sendTabToDevice + menuseparator,  /******** Separator ********/
-/* #tabContextMenu #context_closeTabsToTheEnd,                /* Close Tabs to the Right */
-/* #tabContextMenu #context_closeOtherTabs,                   /* Close Other Tabs        */
+/* #tabContextMenu #context_closeTabOptions,                  /* Close Multiple Tabs     */
+/* #tabContextMenu #context_closeTabsToTheEnd,                    /* Close Tabs to the Right */
+/* #tabContextMenu #context_closeOtherTabs,                       /* Close Other Tabs        */
 /* #tabContextMenu #context_undoCloseTab,                     /* Undo Close Tab          */
 /* #tabContextMenu #context_closeTab,                         /* Close Tab               */
 /* #tabContextMenu #context_closeSelectedTabs,                /* Close Tabs              */
