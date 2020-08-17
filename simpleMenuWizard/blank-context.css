@@ -7,29 +7,31 @@
 
 /*** blank-context.css ***/
 
-/* #context-navigation,                                  /* Hide whole navigation bar            */
-/* #context-back,                                          /* Navi: Back arrow                     */
-/* #context-forward,                                       /* Navi: Forward arrow                  */
-/* #context-reload,                                        /* Navi: Reload icon - 
-                                                                combined position with stop icon   */
-/* #context-stop,                                          /* Navi: Stop icon (x) - 
-                                                                combined position with reload icon */
-/* #context-bookmarkpage,                                  /* Navi: Bookmark star icon             */
-/* #context-sep-navigation,                              /************** Separator ***************/
-/* #context-savepage,                                    /* Save Page As...                      */
-/* #context-pocket,                                      /* Save Page to Pocket                  */
-/* #context-sep-sendpagetodevice,                        /************** Separator ***************/
-/* #context-sendpagetodevice,                            /* Send Page to Device                  */
-/* #context-sep-viewbgimage,                             /************** Separator ***************/
-/* #context-viewbgimage,                                 /* View Background Image                */
-/* #context-selectall,                                   /* Select All                           */
-/* #context-sep-viewsource,                              /************** Separator ***************/
-/* #context-viewsource,                                  /* View Page Source                     */
-/* #context-viewinfo,                                    /* View Page Info                       */
-/* #inspect-separator,                                   /************** Separator ***************/
-/* #context-inspect,                                     /* Inspect Element (Q)                  */
-/* #context-inspect + menuseparator:not([id]),           /************** Separator ***************/
-/* #screenshots_mozilla_org-menuitem-_create-screenshot, /* Take a Screenshot                    */
+/* #context-navigation,                                     /* Hide whole navigation bar            */
+/* #context-back,                                             /* Navi: Back arrow                     */
+/* #context-forward,                                          /* Navi: Forward arrow                  */
+/* #context-reload,                                           /* Navi: Reload icon - 
+                                                                   combined position with stop icon   */
+/* #context-stop,                                             /* Navi: Stop icon (x) - 
+                                                                   combined position with reload icon */
+/* #context-bookmarkpage,                                     /* Navi: Bookmark star icon             */
+/* #context-sep-navigation,                                 /************** Separator ***************/
+/* #context-savepage,                                       /* Save Page As...                      */
+/* #context-pocket,                                         /* Save Page to Pocket                  */
+/* #context-sep-sendpagetodevice,                           /************** Separator ***************/
+/* #context-sendpagetodevice,                               /* Send Page to Device                  */
+/* #context-sep-viewbgimage,                                /************** Separator ***************/
+/* #context-viewbgimage,                                    /* View Background Image                */
+/* #context-selectall,                                      /* Select All                           */
+/* #context-sep-viewsource,                                 /************** Separator ***************/
+/* #context-viewsource,                                     /* View Page Source                     */
+/* #context-viewinfo,                                       /* View Page Info                       */
+/* #inspect-separator,                                      /************** Separator ***************/
+/* #context-inspect,                                        /* Inspect Element (Q)                  */
+/* #context-media-eme-separator,                            /************** Separator ***************/
+/* #context-media-eme-learnmore,                            /* Learn more about DRM…                */
+/* #context-media-eme-learnmore + menuseparator:not([id]),  /************** Separator ***************/
+/* #screenshots_mozilla_org-menuitem-_create-screenshot,    /* Take a Screenshot                    */
 
 #leave_this_dummy_here
     { display:none !important; }
