@@ -14,8 +14,8 @@
 /* #context-print-selection,              /* Print Selection                  */
 /* #context-viewpartialsource-selection,  /* View Selection Source            */
 /* #inspect-separator,                    /************ Separator *************/
+/* #context-inspect-a11y,                 /* Inspect Accessibility Properties */
 /* #context-inspect,                      /* Inspect Element (Q)              */
 
 #leave_this_dummy_here
     { display:none !important; }
- 
