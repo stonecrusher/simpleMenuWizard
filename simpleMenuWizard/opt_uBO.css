@@ -7,7 +7,11 @@
 
 /*** opt_uBO.css ***/
 
-#context-media-eme-learnmore + menuseparator,            /************ Separator ************/
-#ublock0_raymondhill_net_uBlock0-blockElement,           /* Block element (old) */
-#ublock0_raymondhill_net-menuitem-_uBlock0-blockElement  /* Block element (new) */
+#context-media-eme-learnmore + menuseparator,                      /************ Separator ************/
+#ublock0_raymondhill_net_uBlock0-blockElement,                     /* Block element (obsolete_1)      */
+#ublock0_raymondhill_net-menuitem-_uBlock0-blockElement,           /* Block element (obsolete_2)      */
+#ublock0_raymondhill_net-menuitem-14,                              /* uBlock Origin (expandable)      */
+    #ublock0_raymondhill_net-menuitem-_uBlock0-blockElement,           /* Block Element...                */
+    #ublock0_raymondhill_net-menuitem-_uBlock0-blockElementInFrame     /* Block Element in Frame...       */
+
     { display: none !important; }
