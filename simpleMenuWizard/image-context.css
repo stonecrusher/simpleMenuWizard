@@ -7,17 +7,18 @@
 
 /*** image-context.css ***/
 
-/* #context-reloadimage,           /* Reload Image                    */
-/* #context-viewimage,             /* View Image                      */
-/* #context-copyimage-contents,    /* Copy Image                      */
-/* #context-copyimage,             /* Copy Image Location             */
-/* #context-sep-copyimage,         /************ Separator ************/
-/* #context-saveimage,             /* Save Image As...                */
-/* #context-sendimage,             /* Email Image...                  */
-/* #context-setDesktopBackground,  /* Set As Desktop Background...    */
-/* #context-viewimageinfo,         /* View Image Info                 */
-/* #inspect-separator,             /************ Separator ************/
-/* #context-inspect,               /* Inspect Element (Q)             */
+/* #context-reloadimage,           /* Reload Image                     */
+/* #context-viewimage,             /* View Image                       */
+/* #context-saveimage,             /* Save Image As...                 */
+/* #context-copyimage-contents,    /* Copy Image                       */
+/* #context-copyimage,             /* Copy Image Location              */
+/* #context-sendimage,             /* Email Image...                   */
+/* #context-viewimagedesc,         /* View Description                 */
+/* #context-sep-setbackground,     /************ Separator *************/
+/* #context-setDesktopBackground,  /* Set As Desktop Background...     */
+/* #inspect-separator,             /************ Separator *************/
+/* #context-inspect-a11y,          /* Inspect Accessibility Properties */
+/* #context-inspect,               /* Inspect Element (Q)              */
 
 #leave_this_dummy_here
     { display:none !important; }
