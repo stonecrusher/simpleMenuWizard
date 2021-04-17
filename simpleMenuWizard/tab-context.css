@@ -7,6 +7,8 @@
 
 /*** tab-context.css ***/
 
+/* #tabContextMenu #context_openANewTab,                      /* New Tab                 */
+/* #tabContextMenu #context_openANewTab + menuseparator,      /******** Separator ********/
 /* #tabContextMenu #context_reloadTab,                        /* Reload Tab              */
 /* #tabContextMenu #context_reloadSelectedTabs,               /* Reload Tabs             */
 /* #tabContextMenu #context_toggleMuteTab,                    /* Mute / Unmute Tab       */
