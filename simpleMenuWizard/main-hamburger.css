@@ -1,132 +1,95 @@
 /*AGENT_SHEET*/
 
 /*********************************************************************************************
-  simpleMenuWizard: Firefox 57+ userChrome.css tweaks to remove context menu items.
+  simpleMenuWizard: Firefox 89+ userChrome.css tweaks to remove context menu items.
   https://github.com/stonecrusher/simpleMenuWizard
 **********************************************************************************************
 
 /*** main-hamburger.css ***/
-/* #appMenu-mainView .panel-banner-item,              /* Download Firefox update / Download a fresh copy of Firefox / Restart to update Firefox */
-/* #appMenu-fxa-status,                               /* Sign in to Sync / Open Sync preferences / Reconnect to Sync */
-/* #appMenu-mainView toolbarseparator.sync-ui-item,   /**** Separator ****/
-/* #appMenu-protection-report-button,                 /* Privacy Protections */
-/* #appMenu-tp-button,                                /* Content Blocking - FF70 deprecated? */
-/* #appMenu-tp-separator,                             /**** Separator ****/
-/* #appMenu-new-window-button,                        /* New Window */
-/* #appMenu-private-window-button,                    /* New Private Window */
-/* #appMenuRestoreLastSession,                        /* Restore Previous Session */
-/* #appMenuRestoreLastSession + toolbarseparator,     /**** Separator ****/
-/* #appMenu-zoom-controls,                            /* Zoom */
-/* #appMenu-zoomReduce-button,                            /* Zoom out */
-/* #appMenu-zoomReset-button,                             /* Reset zoom level */
-/* #appMenu-zoomEnlarge-button,                           /* Zoom in */
-/* #appMenu-zoomEnlarge-button + toolbarseparator,        /* Vertical Separator */
-/* #appMenu-fullscreen-button,                            /* Display the window in fullscreen */
-/* #appMenu-zoom-controls + toolbarseparator,         /**** Separator ****/
-/* #appMenu-edit-controls,                            /* Edit */
-/* #appMenu-cut-button,                                   /* Cut */
-/* #appMenu-copy-button,                                  /* Copy */
-/* #appMenu-paste-button,                                 /* Paste */
-/* #appMenu-edit-controls + toolbarseparator,         /**** Separator ****/
-/* #appMenu-library-button,                           /* Library */
-/* #appMenu-library-bookmarks-button,                     /* Bookmarks */
-/* #panelMenuBookmarkThisPage,                                /* Bookmark This Page */
-/* #panelMenu_pocketSeparator,                                /**** Separator ****/
-/* #panelMenu_pocket,                                         /* View Pocket List */
-/* #panelMenu_bookmarkingTools,                               /* Bookmarking Tools */
-/* #panelMenu_toggleBookmarksMenu,                                /* Add / Remove Bookmarks Menu to / from Toolbar */
-/* #panelMenu_viewBookmarksSidebar,                               /* View / Hide Bookmarks Sidebar */
-/* #panelMenu_viewBookmarksToolbar,                               /* View / Hide Bookmarks Toolbar */
-/* #panelMenu_searchBookmarks,                                /* Search Bookmarks */
-/* #panelMenu_searchBookmarks + toolbarseparator,             /**** Separator ****/
-/* #panelMenu_recentBookmarks,                                /* Recently Bookmarked label */
-/* #panelMenu_bookmarksMenu,                                  /* Recently Bookmarked items */
-/* #panelMenu_showAllBookmarks,                               /* Show all Bookmarks (grey at bottom) */
-/* #appMenu-library-pocket-button,                        /* View Pocket List */
-/* #appMenu-library-history-button,                       /* History */
-/* #appMenuViewHistorySidebar,                                /* View History Sidebar */
-/* #appMenuClearRecentHistory,                                /* Clear Recent History… */
-/* #appMenuClearRecentHistory + toolbarseparator,             /**** Separator ****/
-/* #appMenuRecentlyClosedTabs,                                /* Recently Closed Tabs */
-/* #appMenu-library-recentlyClosedTabs > .restoreallitem,         /* Restore All Tabs */
-/* #appMenuRecentlyClosedWindows,                             /* Recently Closed Windows */
-/* #appMenuRecentlyClosedWindows + toolbarseparator,          /**** Separator ****/
-/* #appMenuRecentlyClosedWindows ~ label,                     /* Recent History label */
-/* #appMenu_historyMenu,                                      /* Recent History items */
-/* #PanelUI-historyMore,                                      /* Show all History (grey at bottom) */
-/* #appMenu-library-downloads-button,                     /* Downloads */
-/* #appMenu-library-downloads-show-button,                    /* Show Downloads Folder */
-/* #appMenu-library-downloads-show-button + toolbarseparator, /**** Separator ****/
-/* #PanelUI-downloadsMore,                                    /* Show All Downloads (grey at bottom) */
-/* #appMenu-library-remotetabs-button,                    /* Synced Tabs */
-/* #appMenu-library-screenshots,                          /* Screenshots */
-/* #appMenu-library-screenshots + toolbarseparator,       /**** Separator ****/
-/* #appMenu-library-screenshots ~ label.subview-header,   /* Recent Highlights label */
-/* #appMenu-library-recentHighlights,                     /* Recent Highlights items */
-/* #appMenu-logins-button,                            /* Logins and Passwords */
-/* #appMenu-addons-button,                            /* Add-ons */
-/* #appMenu-preferences-button,                       /* Options */
-/* #appMenu-customize-button,                         /* Customize… */
-/* #appMenu-customize-button + toolbarseparator,      /**** Separator ****/
-/* #appMenu-open-file-button,                         /* Open File… */
-/* #appMenu-save-file-button,                         /* Save Page As… */
-/* #appMenu-print-button,                             /* Print… */
-/* #appMenu-print-button + toolbarseparator,          /**** Separator ****/
-/* #appMenu-find-button,                              /* Find in This Page… */
-/* #appMenu-more-button,                              /* More */
-/* #appMenu-taskmanager-button,                           /* Task Manager */
-/* #appMenu-characterencoding-button,                     /* Text Encoding */
-/* #appMenu-workoffline-button,                           /* Work Offline */
-/* #appMenu-developer-button,                         /* Web Developer */
-/* #PanelUI-developerItems > [key="key_toggleToolbox"],   /* Toggle Tools */
-/* #PanelUI-developerItems > [key="key_inspector"],       /* Inspector */
-/* #PanelUI-developerItems > [key="key_webconsole"],      /* Web Console */
-/* #PanelUI-developerItems > [key="key_jsdebugger"],      /* Debugger */
-/* #PanelUI-developerItems > [key="key_netmonitor"],      /* Network */
-/* #PanelUI-developerItems > [key="key_styleeditor"],     /* Style Editor */
-/* #PanelUI-developerItems > [key="key_performance"],     /* Performance */
-/* #PanelUI-developerItems > [key="key_storage"],         /* Storage Inspector */
-/* #PanelUI-developerItems > [key="key_accessibility"],   /* Accessibility */
-/* #PanelUI-developerItems > [key="key_accessibility"]
-       + menuseparator,                                   /**** Separator ****/
-/* #PanelUI-developerItems > [key="key_accessibility"]
-       + menuseparator + .subviewbutton:not([key]),       /* Remote Debugging */
-/* #PanelUI-developerItems > [key="key_browserToolbox"],  /* Browser Toolbox */
-/* #PanelUI-developerItems > [key="key_browserToolbox"]
-       + .subviewbutton:not([key]),                       /* Browser Content Toolbox */
-/* #PanelUI-developerItems > [key="key_browserConsole"],  /* Browser Console */
-/* #PanelUI-developerItems
-       > [key="key_responsiveDesignMode"],                /* Responsive Design Mode */
-/* #PanelUI-developerItems
-       > [key="key_responsiveDesignMode"] 
-       + .subviewbutton:not([key]),                       /* Eyedropper */
-/* #PanelUI-developerItems > [key="key_scratchpad"],      /* Scratchpad */
-/* #PanelUI-developerItems > [key="key_viewSource"],      /* Page Source */
-/* #PanelUI-developerItems > [key="key_viewSource"]
-       + menuseparator,                                   /**** Separator ****/
-/* #PanelUI-developerItems > [key="key_viewSource"]
-       + menuseparator
-       + .subviewbutton:not[key],                         /* Get More Tools */
-/* #PanelUI-developerItems > [key="key_viewSource"]
-       ~ menuseparator:last-of-type,                      /**** Separator ****/
-/* #PanelUI-developerItems > [key="key_viewSource"]
-       ~ .subviewbutton:last-of-type,                     /* Work offline */
-/* #appMenu-whatsnew-button,                          /* What's New */
-/* #appMenu-help-button,                              /* Help */
-/* #PanelUI-helpView
-       [oncommand^="openHelpLink('firefox-help')"],        /* Firefox Help */
-/* #PanelUI-helpView [oncommand^="openTourPage()"],        /* Firefox Tour */
-/* #PanelUI-helpView
-       [oncommand^="openHelpLink('keyboard-shortcuts')"],  /* Keyboard Shortcuts */
-/* #PanelUI-helpView
-       [oncommand^="openTroubleshootingPage()"],           /* Troubleshooting Information */
-/* #PanelUI-helpView [oncommand^="openFeedbackPage()"],    /* Submit Feedback… */
-/* #PanelUI-helpView [oncommand^="safeModeRestart()"],     /* Restart with Add-ons Disabled… */
-/* #PanelUI-helpView
-       [oncommand*="getReportURL('Phish')"],               /* Report Deceptive Site… */
-/* #PanelUI-helpView [oncommand*="openAboutDialog()"],     /* About Firefox */
-/* #appMenu-help-button + toolbarseparator,           /**** Separator ****/
-/* #appMenu-quit-button,                              /* Exit */
+
+/* #appMenu-proton-update-banner,                     /* Downloading Firefox update / 
+                                                         Update available — download now / 
+                                                         Unable to update — system incompatible / 
+                                                         Update available — restart now */
+/* #appMenu-fxa-status2,                              /* Sync and save data / Sign In  */
+/* #appMenu-fxa-separator,                            /*********** Separator ***********/
+/* #appMenu-new-tab-button2,                          /* New Tab                       */
+/* #appMenu-new-window-button2,                       /* New Window                    */
+/* #appMenu-new-private-window-button2,               /* New Private Window            */
+/* #appMenu-new-private-window-button2
+       + toolbarseparator,                            /*********** Separator ***********/
+/* #appMenu-bookmarks-button,                         /* Bookmarks                     */
+/* #panelMenuBookmarkThisPage,                            /* Bookmark Current Tab          */
+/* #panelMenu_searchBookmarks,                            /* Search Bookmarks              */
+/* #panelMenu_viewBookmarksToolbar,                       /* Show Bookmarks Toolbar        */
+/* #panelMenu_viewBookmarksToolbar + toolbarseparator,    /*********** Separator ***********/
+/* #panelMenu_recentBookmarks,                            /* Recent Bookmarks (label)      */
+/* #panelMenu_bookmarksMenu,                              /* Recent Bookmarks (list)       */
+/* #panelMenu_showAllBookmarks,                           /* Manage Bookmarks              */
+/* #appMenu-history-button,                           /* History                       */
+/* #appMenuRecentlyClosedTabs,                            /* Recently Closed Tabs          */
+/* #appMenu-library-recentlyClosedTabs > .restoreallitem,     /* Reopen All Tabs               */
+/* #appMenuRecentlyClosedWindows,                         /* Recently Closed Windows       */
+/* #appMenuRestoreSession,                                /* Restore Previous Session      */
+/* #appMenuRestoreSession + toolbarseparator,             /*********** Separator ***********/
+/* #appMenuClearRecentHistory,                            /* Clear Recent History…         */
+/* #appMenuClearRecentHistory + toolbarseparator,         /*********** Separator ***********/
+/* #panelMenu_recentHistory,                              /* Recent History (label)        */
+/* #appMenu_historyMenu,                                  /* Recent History (list)         */
+/* #appMenu_historyMenu + toolbarseparator,               /*********** Separator ***********/
+/* #PanelUI-historyMore,                                  /* Manage History                */
+/* #appMenu-downloads-button,                         /* Downloads                     */
+/* #appMenu-passwords-button,                         /* Passwords                     */
+/* #appMenu-extensions-themes-button,                 /* Add-ons and Themes            */
+/* #appMenu-extensions-themes-button
+       + toolbarseparator,                            /*********** Separator ***********/
+/* #appMenu-print-button2,                            /* Print…                        */
+/* #appMenu-save-file-button2,                        /* Save Page As…                 */
+/* #appMenu-find-button2,                             /* Find In Page…                 */
+
+/* #appMenu-zoom-controls2,                           /* Zoom                          */
+/* #appMenu-zoom-controls2 + toolbarseparator,        /*********** Separator ***********/
+/* #appMenu-settings-button,                          /* Settings                      */
+/* #appMenu-more-button2,                             /* More Tools                    */
+/* #appmenu-moreTools-button,                             /* Customize Toolbar…            */
+/* #appmenu-moreTools-button + toolbarseparator,          /*********** Separator ***********/
+/* #appmenu-developer-tools,                              /* Browser Tools (label)         */
+/* #appmenu-developer-tools-view
+       > toolbarbutton[key="key_toggleToolbox"],          /* Web Developer Tools           */
+/* #appmenu-developer-tools-view
+       > toolbarbutton[oncommand="switchToTabHavingURI('about:performance', true)"],
+                                                          /* Task Manager                  */
+/* #appmenu-developer-tools-view 
+       > toolbarbutton[oncommand="switchToTabHavingURI('about:performance', true)"]
+       + toolbarbutton[label*="Debug"],                   /* Remote Debugging              */
+/* #appmenu-developer-tools-view 
+       > toolbarbutton[key="key_browserToolbox"],         /* Browser Toolbox               */
+/* #appmenu-developer-tools-view 
+       > toolbarbutton[key="key_browserToolbox"]
+       + toolbarbutton[label*="Browser"],                 /* Browser Content Toolbox       */
+/* #appmenu-developer-tools-view 
+       > toolbarbutton[key="key_browserConsole"],         /* Browser Console               */
+/* #appmenu-developer-tools-view 
+       > toolbarbutton[key="key_responsiveDesignMode"],   /* Responsive Design Mode        */
+/* #appmenu-developer-tools-view 
+       > toolbarbutton[key="key_responsiveDesignMode"]
+       + toolbarbutton,                                   /* Eyedropper                    */
+/* #appmenu-developer-tools-view
+       > toolbarbutton[key="key_viewSource"],             /* Page Source                   */
+/* #appmenu-developer-tools-view
+       > toolbarbutton[key="key_viewSource"]
+       + toolbarbutton,                                   /* Extensions for Developers     */
+/* #appMenu-help-button2,                             /* Help                          */
+/* #PanelUI-helpItems > #appMenu_menu_openHelp,           /* Get Help                         */
+/* #PanelUI-helpItems > #appMenu_feedbackPage,            /* Submit Feedback…                 */
+/* #PanelUI-helpItems > #appMenu_helpSafeMode,            /* Troubleshoot Mode…               */
+/* #PanelUI-helpItems > #appMenu_troubleShooting,         /* More Troubleshooting Information */
+/* #PanelUI-helpItems > #appMenu_help_reportSiteIssue,    /* Report Site Issue…               */
+/* #PanelUI-helpItems
+       > #appMenu_menu_HelpPopup_reportPhishingtoolmenu,  /* Report Deceptive Site…           */
+/* #PanelUI-helpItems > #appMenu_aboutName,               /* About Firefox                    */
+/* #appMenu-help-button2 + toolbarseparator,          /*********** Separator ***********/
+/* #appMenu-quit-button2,                             /* Exit                          */
 
 #leave_this_dummy_here
     { display:none !important; }

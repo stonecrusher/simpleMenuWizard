@@ -1,20 +1,24 @@
 /*AGENT_SHEET*/
 
 /*********************************************************************************************
-  simpleMenuWizard: Firefox 57+ userChrome.css tweaks to remove context menu items.
+  simpleMenuWizard: Firefox 89+ userChrome.css tweaks to remove context menu items.
   https://github.com/stonecrusher/simpleMenuWizard
 **********************************************************************************************
+
 /*** opt_noSendToDevice.css ***/
 
-#context-sendaudio,
-#context-sendvideo,
-#context-sendimage,
+/* #context-sendaudio,    /* Email Audio */
+/* #context-sendvideo,    /* Email Video */
+/* #context-sendimage,    /* Email Image */
 #context-sendpagetodevice,
 #context-sep-sendpagetodevice,
 #context-sendlinktodevice,
 #context-sep-sendlinktodevice,
 #context_sendTabToDevice,
 #context_sendTabToDevice_separator,
+
 #pageAction-panel-sendToDevice,
-#pageAction-panel-emailLink
+/* #pageAction-panel-emailLink,    /* Email Link */
+
+#leave_this_dummy_here
     { display: none !important; }

@@ -1,192 +1,192 @@
 /*AGENT_SHEET*/
 
 /*********************************************************************************************
-  simpleMenuWizard: Firefox 57+ userChrome.css tweaks to remove context menu items.
+  simpleMenuWizard: Firefox 89+ userChrome.css tweaks to remove context menu items.
   https://github.com/stonecrusher/simpleMenuWizard
 **********************************************************************************************
 
 /*** main-menubar.css ***/
 
-/* #file-menu,                              /* File                           */
-/* #menu_newNavigatorTab,                       /* New Tab                        */
-/* #menu_newUserContext,                        /* New Container Tab              */
-/* #menu_newNavigator,                          /* New Window                     */
-/* #menu_newPrivateWindow,                      /* New Private Window             */
-/* #menu_openFile,                              /* Open File…                     */
-/* #menu_close,                                 /* Close Tab                      */
-/* #menu_closeWindow,                           /* Close Window                   */
-/* #menu_closeWindow + menuseparator,           /*********** Separator ************/
-/* #menu_savePage,                              /* Save Page As…                  */
-/* #menu_sendLink,                              /* Email Link…                    */
-/* #menu_sendLink + menuseparator,              /*********** Separator ************/
-/* #menu_printSetup,                            /* Page Setup…                    */
-/* #menu_printPreview,                          /* Print Preview                  */
-/* #menu_print,                                 /* Print…                         */
-/* #menu_print + menuseparator,                 /*********** Separator ************/
-/* #menu_importFromAnotherBrowser,              /* Import from Another Browser…   */
+/* #file-menu,                              /* File                             */
+/* #menu_newNavigatorTab,                       /* New Tab                          */
+/* #menu_newUserContext,                        /* New Container Tab                */
+/* #menu_newNavigator,                          /* New Window                       */
+/* #menu_newPrivateWindow,                      /* New Private Window               */
+/* #menu_openLocation,                          /* Open Location…                   */
+/* #menu_openFile,                              /* Open File…                       */
+/* #menu_close,                                 /* Close Tab                        */
+/* #menu_closeWindow,                           /* Close Window                     */
+/* #menu_closeWindow + menuseparator,           /************ Separator *************/
+/* #menu_savePage,                              /* Save Page As…                    */
+/* #menu_sendLink,                              /* Email Link…                      */
+/* #menu_sendLink + menuseparator,              /************ Separator *************/
+/* #menu_printSetup,                            /* Page Setup…                      */
+/* #menu_printPreview,                          /* Print Preview                    */
+/* #menu_print,                                 /* Print…                           */
+/* #menu_print + menuseparator,                 /************ Separator *************/
+/* #menu_importFromAnotherBrowser,              /* Import from Another Browser…     */
 /* #menu_importFromAnotherBrowser
-        + menuseparator,                        /*********** Separator ************/
-/* #goOfflineMenuitem,                          /* Work Offline                   */
-/* #menu_FileQuitItem,                          /* Exit                           */
+        + menuseparator,                        /************ Separator *************/
+/* #goOfflineMenuitem,                          /* Work Offline                     */
+/* #menu_FileQuitItem,                          /* Exit                             */
 
-/* #edit-menu,                              /* Edit                           */
-/* #menu_undo,                                  /* Undo                           */
-/* #menu_redo,                                  /* Redo                           */
-/* #menu_redo + menuseparator,                  /*********** Separator ************/
-/* #menu_cut,                                   /* Cut                            */
-/* #menu_copy,                                  /* Copy                           */
-/* #menu_paste,                                 /* Paste                          */
-/* #menu_delete,                                /* Delete                         */
-/* #menu_delete + menuseparator,                /*********** Separator ************/
-/* #menu_selectAll,                             /* Select All                     */
-/* #menu_sendLink + menuseparator,              /*********** Separator ************/
-/* #menu_find,                                  /* Find in This Page              */
-/* #menu_findAgain,                             /* Find Again                     */
-/* #textfieldDirection-separator,               /*********** Separator ************/
-/* #textfieldDirection-swap,                    /* Switch Text Direction          */
 
-/* #view-menu,                              /* View                           */
-/* #viewToolbarsMenu,                           /* Toolbars                       */
-/* #toggle_toolbar-menubar,                         /* Menu Bar                       */
-/* #toggle_PersonalToolbar,                         /* Bookmarks Toolbar              */
-/* #toggle_PersonalToolbar + menuseparator,         /*********** Separator ************/
-/* #menu_customizeToolbars,                         /* Customize…                     */
-/* #viewSidebarMenuMenu,                        /* Sidebar                        */
-/* #menu_bookmarksSidebar,                          /* Bookmarks                      */
-/* #menu_historySidebar,                            /* History                        */
-/* #menu_tabsSidebar,                               /* Synced Tabs                    */
-/* #viewSidebarMenuMenu + menuseparator,        /*********** Separator ************/
-/* #viewFullZoomMenu,                           /* Zoom                           */
-/* #menu_zoomEnlarge,                               /* Zoom In                        */
-/* #menu_zoomReduce,                                /* Zoom Out                       */
-/* #menu_zoomReduce + menuseparator,                /*********** Separator ************/
-/* #menu_zoomReset,                                 /* Reset                          */
-/* #menu_zoomReset + menuseparator,                 /*********** Separator ************/
-/* #toggle_zoom,                                    /* Zoom Text Only                 */
-/* #pageStyleMenu,                              /* Page Style                     */
-/* #menu_pageStyleNoStyle,                          /* No Style                       */
-/* #menu_pageStylePersistentOnly,                   /* Basic Page Style               */
-/* #charsetMenu,                                /* Text Encoding                  */
-/* #charsetMenu menu:first-of-type[accesskey="D"],  /* Auto-Detect                    */
+/* #edit-menu,                              /* Edit                             */
+/* #menu_undo,                                  /* Undo                             */
+/* #menu_redo,                                  /* Redo                             */
+/* #menu_redo + menuseparator,                  /************ Separator *************/
+/* #menu_cut,                                   /* Cut                              */
+/* #menu_copy,                                  /* Copy                             */
+/* #menu_paste,                                 /* Paste                            */
+/* #menu_delete,                                /* Delete                           */
+/* #menu_delete + menuseparator,                /************ Separator *************/
+/* #menu_selectAll,                             /* Select All                       */
+/* #menu_sendLink + menuseparator,              /************ Separator *************/
+/* #menu_find,                                  /* Find in This Page                */
+/* #menu_findAgain,                             /* Find Again                       */
+/* #textfieldDirection-separator,               /************ Separator *************/
+/* #textfieldDirection-swap,                    /* Switch Text Direction            */
+
+
+/* #view-menu,                              /* View                             */
+/* #viewToolbarsMenu,                           /* Toolbars                         */
+/* #toggle_toolbar-menubar,                         /* Menu Bar                         */
+/* #toggle_PersonalToolbar,                         /* Bookmarks Toolbar                */
+/* menuitem[data-l10n-id="toolbar-context-menu-bookmarks-toolbar-always-show-2"],  /* Always Show          */
+/* menuitem[data-l10n-id="toolbar-context-menu-bookmarks-toolbar-on-new-tab-2"],   /* Only Show on New Tab */
+/* menuitem[data-l10n-id="toolbar-context-menu-bookmarks-toolbar-never-show-2"],   /* Never Show           */
+/* #toggle_PersonalToolbar + menuseparator,         /************ Separator *************/
+/* #menu_customizeToolbars,                         /* Customize Toolbar…               */
+/* #viewSidebarMenuMenu,                            /* Sidebar                          */
+/* #menu_bookmarksSidebar,                              /* Bookmarks                        */
+/* #menu_historySidebar,                                /* History                          */
+/* #menu_tabsSidebar,                                   /* Synced Tabs                      */
+/* #viewSidebarMenuMenu + menuseparator,        /************ Separator *************/
+/* #viewFullZoomMenu,                           /* Zoom                             */
+/* #menu_zoomEnlarge,                               /* Zoom In                          */
+/* #menu_zoomReduce,                                /* Zoom Out                         */
+/* #menu_zoomReduce + menuseparator,                /************ Separator *************/
+/* #menu_zoomReset,                                 /* Actual Size                      */
+/* #menu_zoomReset + menuseparator,                 /************ Separator *************/
+/* #toggle_zoom,                                    /* Zoom Text Only                   */
+/* #pageStyleMenu,                              /* Page Style                       */
+/* #menu_pageStyleNoStyle,                          /* No Style                         */
+/* #menu_pageStylePersistentOnly,                   /* Basic Page Style                 */
+/* #charsetMenu,                                /* Text Encoding                    */
+/* #charsetMenu menu:first-of-type[accesskey="D"],  /* Auto-Detect                      */
 /* #charsetMenu menu:first-of-type[accesskey="D"]
-       menuitem[detector=""][accesskey="o"],            /* (off)                          */
+       menuitem[detector=""][accesskey="o"],            /* (off)                            */
 /* #charsetMenu menu:first-of-type[accesskey="D"]
-       menuitem[detector="ja_parallel_state_machine"],  /* Japanese                       */
+       menuitem[detector="ja_parallel_state_machine"],  /* Japanese                         */
 /* #charsetMenu menu:first-of-type[accesskey="D"]
-       menuitem[detector="ruprob"],                     /* Russian                        */
+       menuitem[detector="ruprob"],                     /* Russian                          */
 /* #charsetMenu menu:first-of-type[accesskey="D"]
-       menuitem[detector="ukprob"],                     /* Ukrainian                      */
+       menuitem[detector="ukprob"],                     /* Ukrainian                        */
 /* #charsetMenu menu:first-of-type[accesskey="D"]
-        + menuseparator,                            /*********** Separator ************/
-/* #charsetMenu menuitem[charset="UTF-8"],          /* Unicode                        */
-/* #charsetMenu menuitem[charset="windows-1252"],   /* Western                        */
+        + menuseparator,                            /************ Separator *************/
+/* #charsetMenu menuitem[charset="UTF-8"],          /* Unicode                          */
+/* #charsetMenu menuitem[charset="windows-1252"],   /* Western                          */
 /* #charsetMenu menuitem[charset="windows-1252"]
-       + menuseparator,                             /*********** Separator ************/
-/* #charsetMenu menuitem[charset="windows-1256"],   /* Arabic (Windows)               */
-/* #charsetMenu menuitem[charset="ISO-8859-6"],     /* Arabic (ISO)                   */
-/* #charsetMenu menuitem[charset="windows-1257"],   /* Baltic (Windows)               */
-/* #charsetMenu menuitem[charset="ISO-8859-4"],     /* Baltic (ISO)                   */
-/* #charsetMenu menuitem[charset="windows-1250"],   /* Central European (Windows)     */
-/* #charsetMenu menuitem[charset="ISO-8859-2"],     /* Central European (ISO)         */
-/* #charsetMenu menuitem[charset="GBK"],            /* Chinese, Simplified            */
-/* #charsetMenu menuitem[charset="BigS"],           /* Chinese, Traditional           */
-/* #charsetMenu menuitem[charset="windows-1251"],   /* Cyrillic (Windows)             */
-/* #charsetMenu menuitem[charset="KOI8-U"],         /* Cyrillic (KOI8-U)              */
-/* #charsetMenu menuitem[charset="KOI8-R"],         /* Cyrillic (KOI8-R)              */
-/* #charsetMenu menuitem[charset="ISO-8859-5"],     /* Cyrillic (ISO)                 */
-/* #charsetMenu menuitem[charset="IBM866"],         /* Cyrillic (DOS)                 */
-/* #charsetMenu menuitem[charset="windows-1253"],   /* Greek (Windows)                */
-/* #charsetMenu menuitem[charset="ISO-8859-7"],     /* Greek (ISO)                    */
-/* #charsetMenu menuitem[charset="ISO-8859-8"],     /* Hebrew, Visual                 */
-/* #charsetMenu menuitem[charset="windows-1255"],   /* Hebrew                         */
-/* #charsetMenu menuitem[charset="Shift_JIS"],      /* Japanese (Shift_JIS)           */
-/* #charsetMenu menuitem[charset="ISO-2022-JP"],    /* Japanese (ISO-2022-JP)         */
-/* #charsetMenu menuitem[charset="EUC-JP"],         /* Japanese (EUC-JP)              */
-/* #charsetMenu menuitem[charset="EUC-KR"],         /* Korean                         */
-/* #charsetMenu menuitem[charset="windows-874"],    /* Thai                           */
-/* #charsetMenu menuitem[charset="windows-1254"],   /* Turkish                        */
-/* #charsetMenu menuitem[charset="windows-1258"],   /* Vietnamese                     */
-/* #charsetMenu + menuseparator,                /*********** Separator ************/
-/* #fullScreenItem,                             /* Full Screen                    */
-/* #menu_readerModeItem,                        /* Enter Reader View              */
-/* #menu_showAllTabs,                           /* Show All Tabs                  */
-/* #documentDirection-separator,                /*********** Separator ************/
-/* #documentDirection-swap,                     /* Switch Page Direction          */
+       + menuseparator,                             /************ Separator *************/
+/* #charsetMenu menuitem[charset="windows-1256"],   /* Arabic (Windows)                 */
+/* #charsetMenu menuitem[charset="ISO-8859-6"],     /* Arabic (ISO)                     */
+/* #charsetMenu menuitem[charset="windows-1257"],   /* Baltic (Windows)                 */
+/* #charsetMenu menuitem[charset="ISO-8859-4"],     /* Baltic (ISO)                     */
+/* #charsetMenu menuitem[charset="windows-1250"],   /* Central European (Windows)       */
+/* #charsetMenu menuitem[charset="ISO-8859-2"],     /* Central European (ISO)           */
+/* #charsetMenu menuitem[charset="GBK"],            /* Chinese, Simplified              */
+/* #charsetMenu menuitem[charset="BigS"],           /* Chinese, Traditional             */
+/* #charsetMenu menuitem[charset="windows-1251"],   /* Cyrillic (Windows)               */
+/* #charsetMenu menuitem[charset="KOI8-U"],         /* Cyrillic (KOI8-U)                */
+/* #charsetMenu menuitem[charset="KOI8-R"],         /* Cyrillic (KOI8-R)                */
+/* #charsetMenu menuitem[charset="ISO-8859-5"],     /* Cyrillic (ISO)                   */
+/* #charsetMenu menuitem[charset="IBM866"],         /* Cyrillic (DOS)                   */
+/* #charsetMenu menuitem[charset="windows-1253"],   /* Greek (Windows)                  */
+/* #charsetMenu menuitem[charset="ISO-8859-7"],     /* Greek (ISO)                      */
+/* #charsetMenu menuitem[charset="ISO-8859-8"],     /* Hebrew, Visual                   */
+/* #charsetMenu menuitem[charset="windows-1255"],   /* Hebrew                           */
+/* #charsetMenu menuitem[charset="Shift_JIS"],      /* Japanese (Shift_JIS)             */
+/* #charsetMenu menuitem[charset="ISO-2022-JP"],    /* Japanese (ISO-2022-JP)           */
+/* #charsetMenu menuitem[charset="EUC-JP"],         /* Japanese (EUC-JP)                */
+/* #charsetMenu menuitem[charset="EUC-KR"],         /* Korean                           */
+/* #charsetMenu menuitem[charset="windows-874"],    /* Thai                             */
+/* #charsetMenu menuitem[charset="windows-1254"],   /* Turkish                          */
+/* #charsetMenu menuitem[charset="windows-1258"],   /* Vietnamese                       */
+/* #charsetMenu + menuseparator,                /************ Separator *************/
+/* #fullScreenItem,                             /* Full Screen                      */
+/* #menu_readerModeItem,                        /* Enter Reader View                */
+/* #menu_showAllTabs,                           /* Show All Tabs                    */
+/* #documentDirection-separator,                /************ Separator *************/
+/* #documentDirection-swap,                     /* Switch Page Direction            */
 
-/* #history-menu,                           /* History                        */
-/* #menu_showAllHistory,                        /* Show All History               */
-/* #sanitizeItem,                               /* Clear Recent History…          */
-/* #sanitizeSeparator,                          /*********** Separator ************/
-/* #sync-tabs-menuitem,                         /* Synced Tabs                    */
-/* #historyRestoreLastSession,                  /* Restore Previous Session       */
-/* #historyUndoMenu,                            /* Recently Closed Tabs           */
-/* #historyUndoWindowMenu,                      /* Recently Closed Windows        */
-/* #startHistorySeparator,                      /*********** Separator ************/
 
-/* #bookmarksMenu,                          /* Bookmarks                      */
-/* #bookmarksShowAll,                           /* Show All Bookmarks             */
-/* #organizeBookmarksSeparator,                 /*********** Separator ************/
-/* #menu_bookmarkThisPage,                      /* Bookmark This Page             */
-/* #menu_bookmarkAllTabs,                       /* Bookmark all Tabs…             */
-/* #bookmarksToolbarSeparator,                  /*********** Separator ************/
-/* #bookmarksToolbarFolderMenu,                 /* Bookmarks Toolbar              */
-/* #menu_unsortedBookmarks,                     /* Other Bookmarks                */
-/* #menu_mobileBookmarks,                       /* Mobile Bookmarks               */
-/* #bookmarksMenuItemsSeparator,                /*********** Separator ************/
+/* #history-menu,                           /* History                          */
+/* #menu_showAllHistory,                        /* Show All History                 */
+/* #sanitizeItem,                               /* Clear Recent History…            */
+/* #sanitizeSeparator,                          /************ Separator *************/
+/* #sync-tabs-menuitem,                         /* Synced Tabs                      */
+/* #historyRestoreLastSession,                  /* Restore Previous Session         */
+/* #hiddenTabsMenu,                             /* Hidden Tabs                      */
+/* #historyUndoMenu,                            /* Recently Closed Tabs             */
+/* #historyUndoWindowMenu,                      /* Recently Closed Windows          */
+/* #startHistorySeparator,                      /************ Separator *************/
+/* #startHistorySeparator ~ menuitem,           /* (List of recently closed tabs)   */
+
+
+/* #bookmarksMenu,                          /* Bookmarks                        */
+/* #bookmarksShowAll,                           /* Show All Bookmarks               */
+/* #organizeBookmarksSeparator,                 /************ Separator *************/
+/* #menu_bookmarkThisPage,                      /* Bookmark Current Tab             */
+/* #menu_bookmarkAllTabs,                       /* Bookmark All Tabs…               */
+/* #bookmarksToolbarSeparator,                  /************ Separator *************/
+/* #bookmarksToolbarFolderMenu,                 /* Bookmarks Toolbar                */
+/* #menu_unsortedBookmarks,                     /* Other Bookmarks                  */
+/* #menu_mobileBookmarks,                       /* Mobile Bookmarks                 */
+/* #bookmarksMenuItemsSeparator,                /************ Separator *************/
 /* #bookmarksMenuItemsSeparator
-       + menuseparator[hidden] + menu,          /* Recent Tags                    */
+       + menuseparator[hidden] + menu,          /* Recent Tags                      */
 /* #bookmarksMenuItemsSeparator
-       ~ menuseparator.small-separator,         /*********** Separator ************/
+       ~ menuseparator.small-separator,         /************ Separator *************/
 
-/* #tools-menu,                             /* Tools                          */
-/* #menu_openDownloads,                         /* Downloads                      */
-/* #menu_openAddons,                            /* Add-ons                        */
-/* #sync-setup,                                 /* Sign In To Sync…               */
-/* #sync-unverifieditem,                        /* Sign In To Sync…               */
-/* #sync-syncnowitem,                           /* Sync Now                       */
-/* #sync-reauthitem,                            /* Reconnect to Sync…             */
-/* #devToolsSeparator,                          /*********** Separator ************/
-/* #webDeveloperMenu,                           /* Web Developer                  */
-/* #enableDeveloperTools,                           /* Enable Developer Tools         */
-/* #menu_devToolbox,                                /* Toggle Tools                   */
-/* #menuitem_inspector,                             /* Inspector                      */
-/* #menuitem_webconsole,                            /* Web Console                    */
-/* #menuitem_jsdebugger,                            /* Debugger                       */
-/* #menuitem_styleeditor,                           /* Style Editor                   */
-/* #menuitem_performance,                           /* Performance                    */
-/* #menuitem_netmonitor,                            /* Network                        */
-/* #menuitem_storage,                               /* Storage Inspector              */
-/* #menuitem_accessibility,                         /* Accessibility                  */
-/* #menu_webreplay,                                 /* Web Replay                     */
-/* #menu_devtools_separator,                        /*********** Separator ************/
-/* #menu_webide,                                    /* WebIDE                         */
-/* #menu_browserToolbox,                            /* Browser Toolbox                */
-/* #menu_browserContentToolbox,                     /* Browser Content Toolbox        */
-/* #menu_browserConsole,                            /* Browser Console                */
-/* #menu_responsiveUI,                              /* Responsive Design Mode         */
-/* #menu_eyedropper,                                /* Eyedropper                     */
-/* #menu_scratchpad,                                /* Scratchpad                     */
-/* #menu_devtools_serviceworkers,                   /* Service Workers                */
-/* #menu_devtools_connect,                          /* Connect…                       */
-/* #menu_pageSource,                                /* Page Source                    */
-/* #devToolsEndSeparator,                           /*********** Separator ************/
-/* #getMoreDevtools,                                /* Get More Tools                 */
-/* #menu_pageInfo,                              /* Page Info                      */
-/* #prefSep,                                    /*********** Separator ************/
-/* #menu_preferences,                           /* Options                        */
+
+/* #tools-menu,                             /* Tools                            */
+/* #menu_openDownloads,                         /* Downloads                        */
+/* #menu_openAddons,                            /* Add-ons and Themes               */
+/* #sync-setup,                                 /* Sign In                          */
+/* #sync-enable,                                /* Turn on Sync…                    */
+/* #sync-unverifieditem,                        /* Sign In                          */
+/* #sync-syncnowitem,                           /* Sync Now                         */
+/* #sync-reauthitem,                            /* Reconnect to Firefox…            */
+/* #devToolsSeparator,                          /************ Separator *************/
+/* #webDeveloperMenu,                           /* Web Developer                    */
+/* #enableDeveloperTools,                           /* Enable Developer Tools…          */
+/* #menu_devToolbox,                                /* Web Developer Tools              */
+/* #menu_taskManager,                               /* Task Manager                     */
+/* #menu_devtools_remotedebugging,                  /* Remote Debugging                 */
+/* #menu_browserToolbox,                            /* Browser Toolbox                  */
+/* #menu_browserContentToolbox,                     /* Browser Content Toolbox          */
+/* #menu_browserConsole,                            /* Browser Console                  */
+/* #menu_responsiveUI,                              /* Responsive Design Mode           */
+/* #menu_eyedropper,                                /* Eyedropper                       */
+/* #menu_pageSource,                                /* Page Source                      */
+/* #menu-tools-page-source,                         /* Extensions for Developers        */
+/* #menu_pageInfo,                              /* Page Info                        */
+/* #prefSep,                                    /************ Separator *************/
+/* #menu_preferences,                           /* Settings                         */
+
 
 /* #helpMenu,                               /* Help                           */
-/* #menu_openHelp,                              /* Firefox Help                   */
-/* #menu_openTour,                              /* Firefox Tour                   */
-/* #help_importFromAnotherBrowser,              /* Import from Another Browser... */
-/* #menu_keyboardShortcuts,                     /* Keyboard Shortcuts             */
-/* #troubleShooting,                            /* Troubleshooting Information    */
-/* #feedbackPage,                               /* Submit Feedback…               */
-/* #helpSafeMode,                               /* Restart with Add-ons Disabled… */
-/* #menu_HelpPopup_reportPhishingtoolmenu,      /* Report Deceptive Site…         */
-/* #menu_HelpPopup_reportPhishingErrortoolmenu, /* This isn’t a deceptive site…   */
-/* #aboutSeparator,                             /*********** Separator ************/
-/* #aboutName,                                  /* About Firefox                  */
+/* #menu_openHelp,                              /* Get Help                         */
+/* #feedbackPage,                               /* Submit Feedback…                 */
+/* #helpSafeMode,                               /* Troubleshoot Mode…               */
+/* #troubleShooting,                            /* More Troubleshooting Information */
+/* #help_reportSiteIssue,                       /* Report Site Issue…               */
+/* #menu_HelpPopup_reportPhishingtoolmenu,      /* Report Deceptive Site…           */
+/* #menu_HelpPopup_reportPhishingErrortoolmenu, /* This Isn’t a Deceptive Site…     */
+/* #aboutSeparator,                             /************ Separator *************/
+/* #aboutName,                                  /* About Firefox                    */
+/* #helpPolicySeparator,                        /************ Separator *************/
+/* #helpPolicySupport,                          /* ? */
 
 #leave_this_dummy_here
     { display:none !important; }

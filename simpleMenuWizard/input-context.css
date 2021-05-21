@@ -1,37 +1,40 @@
 /*AGENT_SHEET*/
 
 /*********************************************************************************************
-  simpleMenuWizard: Firefox 57+ userChrome.css tweaks to remove context menu items.
+  simpleMenuWizard: Firefox 89+ userChrome.css tweaks to remove context menu items.
   https://github.com/stonecrusher/simpleMenuWizard
 **********************************************************************************************
 
 /*** input-context.css ***/
 
-/* #spell-no-suggestions,                       /* (No Spelling Suggestions)        */
-/* menuitem.spell-suggestion,                   /* ~ List of spelling suggestions ~ */
-/* #spell-add-to-dictionary,                    /* Add To Dictionary                */
-/* #spell-undo-add-to-dictionary,               /* Undo Add To Dictionary           */
-/* #spell-suggestions-separator,                /************ Separator *************/
-/* #context-undo,                               /* Undo                             */
-/* #context-sep-undo,                           /************ Separator *************/
-/* #context-cut,                                /* Cut                              */
-/* #context-copy,                               /* Copy                             */
-/* #context-paste,                              /* Paste                            */
-/* #context-delete,                             /* Delete                           */
-/* #context-sep-paste,                          /************ Separator *************/
-/* #context-selectall,                          /* Select All                       */
-/* #context-keywordfield,                       /* Add a Keyword for this Search…   */
-/* #spell-separator,                            /************ Separator *************/
-/* #spell-check-enabled,                        /* Check Spelling                   */
-/* #spell-add-dictionaries-main,                /* Add Dictionaries…                */
-/* #spell-dictionaries,                         /* Languages                        */
-/* #context-sep-bidi,                           /************ Separator *************/
-/* #context-bidi-text-direction-toggle,         /* Switch Text Direction            */
-/* #context-bidi-page-direction-toggle,         /* Switch Page Direction            */
-/* #fill-login-separator,                       /************ Separator *************/
-/* #fill-login,                                 /* Fill Login                       */
-/* #inspect-separator,                          /************ Separator *************/
-/* #context-inspect,                            /* Inspect Element (Q)              */
+/* #spell-no-suggestions,                  /* (No Spelling Suggestions)        */
+/* menuitem.spell-suggestion,              /* ~ List of spelling suggestions ~ */
+/* #spell-add-to-dictionary,               /* Add To Dictionary                */
+/* #spell-undo-add-to-dictionary,          /* Undo Add To Dictionary           */
+/* #spell-suggestions-separator,           /************ Separator *************/
+/* #context-undo,                          /* Undo                             */
+/* #context-redo,                          /* Redo                             */
+/* #context-sep-redo,                      /************ Separator *************/
+/* #context-cut,                           /* Cut                              */
+/* #context-copy,                          /* Copy                             */
+/* #context-paste,                         /* Paste                            */
+/* #context-delete,                        /* Delete                           */
+/* #context-selectall,                     /* Select All                       */
+/* #context-sep-selectall,                 /************ Separator *************/
+/* #context-keywordfield,                  /* Add a Keyword for this Search…   */
+/* #spell-separator,                       /************ Separator *************/
+/* #spell-check-enabled,                   /* Check Spelling                   */
+/* #spell-dictionaries,                    /* Languages                        */
+/* #spell-check-dictionary-en-US,              /* English (United States)          */
+/* #spell-language-separator,                  /************ Separator *************/
+/* #spell-add-dictionaries-main,               /* Add Dictionaries…                */
+/* #context-sep-bidi,                      /************ Separator *************/
+/* #context-bidi-text-direction-toggle,    /* Switch Text Direction            */
+/* #context-bidi-page-direction-toggle,    /* Switch Page Direction            */
+/* #fill-login-separator,                  /************ Separator *************/
+/* #fill-login,                            /* Fill Login                       */
+/* #inspect-separator,                     /************ Separator *************/
+/* #context-inspect,                       /* Inspect (Q)                      */
 
 #leave_this_dummy_here
     { display:none !important; }

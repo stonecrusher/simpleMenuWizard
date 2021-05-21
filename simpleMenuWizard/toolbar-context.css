@@ -1,31 +1,31 @@
 /*AGENT_SHEET*/
 
 /*********************************************************************************************
-  simpleMenuWizard: Firefox 57+ userChrome.css tweaks to remove context menu items.
+  simpleMenuWizard: Firefox 89+ userChrome.css tweaks to remove context menu items.
   https://github.com/stonecrusher/simpleMenuWizard
 **********************************************************************************************
 
 /*** toolbar-context.css ***/
 
-/*** All toolbars share one context menu, but show different items ***/
-/* #toolbar-context-menu .customize-context-manageExtension,             /* Manage Extension                 */
-/* #toolbar-context-menu .customize-context-removeExtension,             /* Remove Extension                 */
-/* #toolbar-context-menu .customize-context-removeExtension
-    + menuseparator                                                      /************ Seperator *************/
-/* #toolbar-context-menu .customize-context-moveToPanel,                 /* Pin to Overflow Menu             */
-/* #toolbar-context-menu .customize-context-autoHide,                    /* Auto-Hide in Toolbar             */
-/* #toolbar-context-menu .customize-context-removeFromToolbar,           /* Remove from Toolbar              */
-/* #toolbar-context-menu #toolbar-context-reloadSelectedTab,             /* Reload Selected Tab              */
-/* #toolbar-context-menu #toolbar-context-reloadSelectedTabs,            /* Reload Selected Tabs             */
-/* #toolbar-context-menu #toolbar-context-bookmarkSelectedTab,           /* Bookmark Selected Tab…           */
-/* #toolbar-context-menu #toolbar-context-bookmarkSelectedTabs,          /* Bookmark Selected Tabs…          */
-/* #toolbar-context-menu #toolbar-context-selectAllTabs,                 /* Select All Tabs                  */
-/* #toolbar-context-menu #toolbar-context-undoCloseTab,                  /* Undo Close Tab                   */
-/* #toolbar-context-menu #toolbar-context-undoCloseTab + menuseparator,  /************ Seperator *************/
-/* #toolbar-context-menu #toggle_toolbar-menubar,                        /* Menu Bar (toggle)                */
-/* #toolbar-context-menu #toggle_PersonalToolbar,                        /* Bookmarks Toolbar (toggle)       */
-/* #toolbar-context-menu #viewToolbarsMenuSeparator,                     /************ Seperator *************/
-/* #toolbar-context-menu .viewCustomizeToolbar,                          /* Customize...                     */
+/* #toolbar-context-menu .customize-context-manageExtension,             /* Manage Extension       */
+/* #toolbar-context-menu .customize-context-removeExtension,             /* Remove Extension       */
+/* #toolbar-context-menu .customize-context-reportExtension,             /* Report Extension       */
+/* #toolbar-context-menu .customize-context-reportExtension
+    + menuseparator,                                                     /******* Seperator ********/
+/* #toolbar-context-menu .customize-context-moveToPanel,                 /* Pin to Overflow Menu   */
+/* #toolbar-context-menu #toolbar-context-autohide-downloads-button,     /* Hide Button When Empty */
+/* #toolbar-context-menu .customize-context-removeFromToolbar,           /* Remove from Toolbar    */
+/* #toolbar-context-menu #toolbarItemsMenuSeparator,                     /******* Seperator ********/
+/* #toolbar-context-menu #toggle_toolbar-menubar,                        /* Menu Bar               */
+/* #toolbar-context-menu #toggle_PersonalToolbar,                        /* Bookmarks Toolbar      */
+/* #toolbar-context-menu
+       menuitem[data-l10n-id="toolbar-context-menu-bookmarks-toolbar-always-show-2"],  /* Always Show            */
+/* #toolbar-context-menu                                                                                          
+       menuitem[data-l10n-id="toolbar-context-menu-bookmarks-toolbar-on-new-tab-2"],   /* Only Show on New Tab   */
+/* #toolbar-context-menu                                                                                          
+       menuitem[data-l10n-id="toolbar-context-menu-bookmarks-toolbar-never-show-2"],   /* Never Show             */
+/* #toolbar-context-menu #viewToolbarsMenuSeparator,                     /******* Seperator ********/
+/* #toolbar-context-menu #viewCustomizeToolbar,                          /* Customize Toolbar…     */
 
 #leave_this_dummy_here
     { display:none !important; }

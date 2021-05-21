@@ -1,11 +1,13 @@
 /*AGENT_SHEET*/
 
-/****** simpleMenuWizard ******/
+/************************************/
+/****** simpleMenuWizard START ******/
 
-/********************************************************
+/**********************************************
    Modify these files themselves to your needs.
    Do not modify the following @import block.
-   ******************************************************
+   **********************************************/
+
 /*** When right-clicking on... ***/
 @import url("./simpleMenuWizard/blank-context.css");      /* ...a blank area on a webpage                    */
 @import url("./simpleMenuWizard/frame-context.css");      /* ...an iframe                                    */
@@ -22,24 +24,15 @@
 @import url("./simpleMenuWizard/tab-context.css");        /* ...a tab                                        */
 @import url("./simpleMenuWizard/toolbar-context.css");    /* ...the toolbar or tabbar                        */
 @import url("./simpleMenuWizard/urlbar-context.css");     /* ...the addressbar                               */
-@import url("./simpleMenuWizard/urlbar-pageaction.css");  /* Leftclick the addressbar ellipsis (three dots)  */
 
+
+/*** Options ***/
 
 /**********************************************************
    How to activate or deactivate the following options:
    Remove '/*' at the beginning of a line (not comment line) to activate the option
    Add '/*' at the beginning of the line (not comment line) to deactivate the option
-   ********************************************************
-
-/*** Options ***/
-/*** If you don't use syncing: Hide all "Send to device" and sync items ***/
-/* @import url("./simpleMenuWizard/opt_noSync.css");
-/* Note: If you use Firefox 60 or higher, please see here:
-   https://github.com/stonecrusher/simpleMenuWizard#hide-pocket--sync--screenshots
-*/
-
-/*** If you use uBlock Origin and want to remove all uBO context menu entries ***/
-/* @import url("./simpleMenuWizard/opt_uBO.css");
+   **********************************************************/
 
 /*** Hide all "Send <item> to Device" entries ***/
 /* @import url("./simpleMenuWizard/opt_noSendToDevice.css");
@@ -47,4 +40,5 @@
 /*** Hide all inactive menu items ***/
 /* #mainPopupSet menuitem[disabled="true"] { display: none !important; }
 
-/****** simpleMenuWizard end ******/
+/****** simpleMenuWizard END ******/
+/**********************************/
