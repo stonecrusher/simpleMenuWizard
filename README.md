@@ -47,6 +47,7 @@ To **remove entries from the context menu** you need to
 **Important notes:**
  * All *options and items are disabled by default*, so if you don't edit the files, nothing will happen.
  * Items that appear in different contexts with the same ID will disappear in all those contexts when *activated only once*. This is because many menus internally share the same very big context menu and are separated here for more convenience.  
+ * If you're running macOS and Firefox 89+, make sure you set `widget.macos.native-context-menus` to `false` otherwise it won't work.
    For specific problems please [open an issue](https://github.com/stonecrusher/simpleMenuWizard/issues), there may be workarounds.
 
 ## Hide Pocket / Sync / Screenshots
