@@ -27,7 +27,7 @@
 /* #tabContextMenu #context_moveToEnd,                            /* Move to End             */
 /* #tabContextMenu #context_openTabInWindow,                      /* Move to New Window      */
 /* #tabContextMenu #context_sendTabToDevice,                  /* Send Tab to Device      */
-/* #tabContextMenu #context_shareTabURL */                    /* Share tab URL via 3rd party app */
+/* #tabContextMenu #context_shareTabURL,                      /* Share tab URL via 3rd party app */
 /* #tabContextMenu #context_reopenInContainer,                /* Reopen in Container     */
 /* #tabContextMenu #context_dummy,                                /* Send Tab to Device Submenu not yet supported */
 /* #tabContextMenu #context_selectAllTabs,                    /* Select All Tabs         */
