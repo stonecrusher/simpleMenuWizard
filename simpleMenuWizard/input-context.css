@@ -7,6 +7,10 @@
 
 /*** input-context.css ***/
 
+/* #fill-login,                            /* Use Saved Login                  */
+/* #fill-login-generated-password,         /* Suggest Strong Password…         */
+/* #manage-saved-logins,                   /* Manage Logins                    */
+/* #passwordmgr-items-separator,           /************ Separator *************/
 /* #spell-no-suggestions,                  /* (No Spelling Suggestions)        */
 /* menuitem.spell-suggestion,              /* ~ List of spelling suggestions ~ */
 /* #spell-add-to-dictionary,               /* Add To Dictionary                */
