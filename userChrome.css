@@ -38,7 +38,7 @@
 /* @import url("./simpleMenuWizard/opt_noSendToDevice.css");
 
 /*** Hide all inactive menu items ***/
-/* #mainPopupSet menuitem[disabled="true"] { display: none !important; }
+/* #mainPopupSet menuitem[disabled="true"][id][data-l10n-id] { display: none !important; }
 
 /****** simpleMenuWizard END ******/
 /**********************************/
