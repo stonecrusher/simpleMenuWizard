@@ -46,9 +46,8 @@
 /* #appMenu-print-button2,                            /* Print…                        */
 /* #appMenu-save-file-button2,                        /* Save Page As…                 */
 /* #appMenu-find-button2,                             /* Find In Page…                 */
-
-/* #appMenu-zoom-controls2,                           /* Zoom                          */
-/* #appMenu-zoom-controls2 + toolbarseparator,        /*********** Separator ***********/
+/* #appMenu-zoom-controls,                            /* Zoom                          */
+/* #appMenu-zoom-controls + toolbarseparator,         /*********** Separator ***********/
 /* #appMenu-settings-button,                          /* Settings                      */
 /* #appMenu-more-button2,                             /* More Tools                    */
 /* #appmenu-moreTools-button,                             /* Customize Toolbar…            */
