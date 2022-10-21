@@ -32,6 +32,7 @@ To **remove entries from the context menu** you need to
     * `main-hamburger.css` when **left**-clicking on the three lines on top right
     * `main-menubar.css` when **left**-clicking on the main menubar (open with ALT key - file, edit, view, ...)
     * `media-context.css` when right-clicking on media like audio or html5 video
+    * `newtab-containers.css` when right-clicking on the plus sign to open a new tab or container
     * `select-context.css` when right-clicking on selected text or object
     * `sidebar-context.css` when right-clicking on items in bookmark- or history sidebar
     * `sidebar-header.css` when **left**-clicking the sidebar dropdown menu
