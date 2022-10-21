@@ -1,0 +1,22 @@
+/*AGENT_SHEET*/
+
+/*********************************************************************************************
+  simpleMenuWizard: userChrome.css tweaks to remove context menu items in Firefox.
+  https://github.com/stonecrusher/simpleMenuWizard
+**********************************************************************************************
+
+/*** newtab-containers.css ***/
+/*** When right-clicking on the plus sign to open a new tab or container ***/
+
+/* #new-tab-button-popup > menuitem[accesskey="N"],             /* No Container                     */
+/* #new-tab-button-popup > menuseparator:nth-of-type(1),        /************ Separator *************/
+/* #new-tab-button-popup > menuitem[data-usercontextid="1"],    /* Personal                         */
+/* #new-tab-button-popup > menuitem[data-usercontextid="2"],    /* Work                             */
+/* #new-tab-button-popup > menuitem[data-usercontextid="3"],    /* Banking                          */
+/* #new-tab-button-popup > menuitem[data-usercontextid="4"],    /* Shopping                         */
+/* #new-tab-button-popup > menuseparator:nth-of-type(2),        /************ Separator *************/
+/* #new-tab-button-popup >                                      
+       menuitem[command="Browser:OpenAboutContainers"],         /* Manage Containers */
+
+#leave_this_dummy_here
+    { display:none !important; }

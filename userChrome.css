@@ -15,8 +15,9 @@
 @import url("./simpleMenuWizard/input-context.css");      /* ...an input-field                                 */
 @import url("./simpleMenuWizard/link-context.css");       /* ...a link                                         */
 @import url("./simpleMenuWizard/main-hamburger.css");     /* Leftclick on the hamburger menu on top right      */
-@import url("./simpleMenuWizard/main-menubar.css");       /* Leftclick on the main menubar (open with ALT key) */
 @import url("./simpleMenuWizard/media-context.css");      /* ...media like audio or html5 video                */
+@import url("./simpleMenuWizard/main-menubar.css");       /* Leftclick on the main menubar (open with ALT key) */
+@import url("./simpleMenuWizard/newtab-containers.css");  /* ...the plus sign to open a new tab or container   */
 @import url("./simpleMenuWizard/select-context.css");     /* ...selected text or selected object               */
 @import url("./simpleMenuWizard/sidebar-context.css");    /* ...items in bookmarks- or history sidebar         */
 @import url("./simpleMenuWizard/sidebar-header.css");     /* Leftclick on the sidebar header                   */
