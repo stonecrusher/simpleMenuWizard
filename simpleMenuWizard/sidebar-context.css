@@ -8,42 +8,40 @@
 /*** sidebar-context.css ***/
 /*** When right-clicking on items in bookmarks- or history sidebar ***/
 
-/* #placesContext_open,                           /* Open                             */
-/* #placesContext_openBookmarkContainer\:tabs,    /* Open All Bookmarks               */
-/* #placesContext_openBookmarkLinks\:tabs,        /* Open All Bookmarks               */
-/* #placesContext_open\:newtab,                   /* Open in a New Tab                */
-/* #placesContext_openContainer\:tabs,            /* Open All in Tabs (folder)        */
-/* #placesContext_openLinks\:tabs,                /* Open All in Tabs (selected tabs) */
-/* #placesContext_open\:newwindow,                /* Open in a New Window             */
-/* #placesContext_open\:newprivatewindow,         /* Open in a New Private Window     */
-/* #placesContext_openSeparator,                  /************ Separator *************/
-/* #placesContext_show_bookmark\:info,            /* Edit Bookmark…                   */
-/* #placesContext_show\:info,                     /* Edit…                            */
-/* #placesContext_show_folder\:info,              /* Rename Folder…                   */
-/* #placesContext_deleteBookmark,                 /* Remove Bookmark                  */
-/* #placesContext_deleteFolder,                   /* Remove Folder                    */
-/* #placesContext_delete,                         /* Delete                           */
-/* #placesContext_delete_history,                 /* Delete Page                      */
-/* #placesContext_deleteHost,                     /* Forget About This Site           */
-/* #placesContext_sortBy\:name,                   /* Sort By Name                     */
-/* #placesContext_deleteSeparator,                /************ Separator *************/
-/* #placesContext_cut,                            /* Cut                              */
-/* #placesContext_copy,                           /* Copy                             */
-/* #placesContext_paste_group,                    /* Paste                            */
-/* #placesContext_editSeparator,                  /************ Separator *************/
-/* #placesContext_new\:bookmark,                  /* Add Bookmark...                  */
-/* #placesContext_new\:folder,                    /* Add Folder...                    */
-/* #placesContext_new\:separator,                 /* Add Separator                    */
-/* #placesContext_newSeparator,                   /************ Separator *************/
-/* #placesContext_paste,                          /* Paste                            */
-/* #placesContext_pasteSeparator,                 /************ Separator *************/
-/* #placesContext_createBookmark,                 /* Bookmark Page                    */
-/* #toggle_PersonalToolbar,                       /* Bookmarks Toolbar                */
-    /* #toolbar-context-menu-bookmarks-toolbar-always-show-2,  /* Always Show             */
-    /* #toolbar-context-menu-bookmarks-toolbar-on-new-tab-2,   /* Only Show on New Tab    */
-    /* #toolbar-context-menu-bookmarks-toolbar-never-show-2,   /* Never Show              */
-/* #show-other-bookmarks_PersonalToolbar,         /* Show Other Bookmarks             */
-/* #placesContext_showAllBookmarks,               /* Manage Bookmarks                 */
+/* #placesContext_open,                           /* Open                              */
+/* #placesContext_openBookmarkContainer\:tabs,    /* Open All Bookmarks (folder)       */
+/* #placesContext_openBookmarkLinks\:tabs,        /* Open All Bookmarks (selected tabs)*/
+/* #placesContext_open\:newtab,                   /* Open in New Tab                   */
+/* #placesContext_open\:newcontainertab,          /* Open in New Container Tab         */
+/* #placesContext_openContainer\:tabs,            /* Open All in Tabs (folder)         */
+/* #placesContext_openLinks\:tabs,                /* Open All in Tabs (selected tabs)  */
+/* #placesContext_open\:newwindow,                /* Open in New Window                */
+/* #placesContext_open\:newprivatewindow,         /* Open in New Private Window        */
+/* #placesContext_showInFolder,                   /* Show in Folder                    */
+/* #placesContext_openSeparator,                  /************* Separator *************/
+/* #placesContext_show_bookmark\:info,            /* Edit Bookmark…                    */
+/* #placesContext_show\:info,                     /* Edit…                             */
+/* #placesContext_show_folder\:info,              /* Edit Folder…                      */
+/* #placesContext_deleteBookmark,                 /* Delete Bookmark                   */
+/* #placesContext_removeTag,                      /* Remove Tag                        */
+/* #placesContext_deleteFolder,                   /* Delete Folder                     */
+/* #placesContext_delete,                         /* Delete                            */
+/* #placesContext_delete_history,                 /* Delete Page                       */
+/* #placesContext_deleteHost,                     /* Forget About This Site            */
+/* #placesContext_sortBy\:name,                   /* Sort By Name                      */
+/* #placesContext_deleteSeparator,                /************* Separator *************/
+/* #placesContext_cut,                            /* Cut                               */
+/* #placesContext_copy,                           /* Copy                              */
+/* #placesContext_paste_group,                    /* Paste                             */
+/* #placesContext_editSeparator,                  /************* Separator *************/
+/* #placesContext_new\:bookmark,                  /* Add Bookmark…                     */
+/* #placesContext_new\:folder,                    /* Add Folder…                       */
+/* #placesContext_new\:separator,                 /* Add Separator                     */
+/* #placesContext_newSeparator,                   /************* Separator *************/
+/* #placesContext_paste,                          /* Paste                             */
+/* #placesContext_pasteSeparator,                 /************* Separator *************/
+/* #placesContext_createBookmark,                 /* Bookmark Page…                    */
+/* #placesContext_showAllBookmarks,               /* Manage Bookmarks                  */
 
 #leave_this_dummy_here
     { display:none !important; }
