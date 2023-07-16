@@ -15,17 +15,17 @@
                                            combined position with stop icon   */
 /* #context-stop,                     /* Navi: Stop icon (x) - 
                                            combined position with reload icon */
-/* #context-bookmarkpage,             /* Navi: Bookmark star icon             */
+#context-bookmarkpage,             /* Navi: Bookmark star icon             */
 /* #context-sep-navigation,         /************** Separator ***************/
-/* #context-savepage,               /* Save Page As...                      */
+#context-savepage,               /* Save Page As...                      */
 /* #context-pocket,                 /* Save Page to Pocket                  */
 /* #context-selectall,              /* Select All                           */
-/* #context-sep-selectall,          /************** Separator ***************/
-/* #context-take-screenshot,        /* Take Screenshot                      */
-/* #context-sep-screenshots,        /************** Separator ***************/
-/* #context-viewsource,             /* View Page Source                     */
+#context-sep-selectall,          /************** Separator ***************/
+#context-take-screenshot,        /* Take Screenshot                      */
+#context-sep-screenshots,        /************** Separator ***************/
+#context-viewsource,             /* View Page Source                     */
 /* #context-inspect,                /* Inspect (Q)                          */
-/* #context-media-eme-separator,    /************** Separator ***************/
+#context-media-eme-separator,    /************** Separator ***************/
 /* Here are context menus of addons */
 
 #leave_this_dummy_here

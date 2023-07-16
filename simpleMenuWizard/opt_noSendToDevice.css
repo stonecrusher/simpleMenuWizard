@@ -7,9 +7,9 @@
 
 /*** opt_noSendToDevice.css ***/
 
-/* #context-sendaudio,    /* Email Audio */
-/* #context-sendvideo,    /* Email Video */
-/* #context-sendimage,    /* Email Image */
+#context-sendaudio,    /* Email Audio */
+#context-sendvideo,    /* Email Video */
+#context-sendimage,    /* Email Image */
 #context-sendpagetodevice,
 #context-sep-sendpagetodevice,
 #context-sendlinktodevice,
@@ -18,7 +18,7 @@
 #context_sendTabToDevice_separator,
 
 #pageAction-panel-sendToDevice,
-/* #pageAction-panel-emailLink,    /* Email Link */
+#pageAction-panel-emailLink,    /* Email Link */
 
 #leave_this_dummy_here
     { display: none !important; }

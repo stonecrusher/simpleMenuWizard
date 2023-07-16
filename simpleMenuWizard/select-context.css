@@ -11,14 +11,14 @@
 /* #context-openlinkincurrent,            /* Open Link                        */
 /* #context-copy,                         /* Copy                             */
 /* #context-selectall,                    /* Select All                       */
-/* #context-print-selection,              /* Print Selection                  */
+#context-print-selection,              /* Print Selection                  */
 /* #context-sep-selectall,                /************ Separator *************/
-/* #context-take-screenshot,              /* Take Screenshot                  */
-/* #context-sep-screenshots,              /************ Separator *************/
+#context-take-screenshot,              /* Take Screenshot                  */
+#context-sep-screenshots,              /************ Separator *************/
 /* #context-searchselect,                 /* Search [Google] for "[selected]" */
 /* #frame-sep,                            /************ Separator *************/
-/* #context-viewpartialsource-selection,  /* View Selection Source            */
-/* #context-inspect-a11y,                 /* Inspect Accessibility Properties */
+#context-viewpartialsource-selection,  /* View Selection Source            */
+#context-inspect-a11y,                 /* Inspect Accessibility Properties */
 /* #context-inspect,                      /* Inspect (Q)                      */
 
 #leave_this_dummy_here

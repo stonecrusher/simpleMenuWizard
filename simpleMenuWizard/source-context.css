@@ -18,7 +18,7 @@
 /* #context-savepage,                      /* Save Page As...           */
 /* #context-selectall,                     /* Select All                */
 /* #context-sep-selectall,                 /********* Separator *********/
-/* #context-take-screenshot,               /* Take Screenshot           */
+#context-take-screenshot,               /* Take Screenshot           */
 /* #context-sep-screenshots,               /********* Separator *********/
 /* #context-viewsource,                    /* View Page Source          */
 /* #context-inspect,                       /* Inspect (Q)               */

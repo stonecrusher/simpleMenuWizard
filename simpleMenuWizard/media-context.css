@@ -27,13 +27,13 @@
 /* #context-viewvideo,                   /* Open Video in New Tab           */
 /* #context-video-pictureinpicture,      /* Watch in Picture-in-Picture     */
 /* #context-media-sep-commands,          /************ Separator ************/
-/* #context-video-saveimage,             /* Take Snapshot…                  */
+#context-video-saveimage,             /* Take Snapshot…                  */
 /* #context-savevideo,                   /* Save Video As…                  */
 /* #context-saveaudio,                   /* Save Audio As…                  */
 /* #context-copyvideourl,                /* Copy Video Link                 */
 /* #context-copyaudiourl,                /* Copy Audio Link                 */
-/* #context-sendvideo,                   /* Email Video…                    */
-/* #context-sendaudio,                   /* Email Audio…                    */
+#context-sendvideo,                   /* Email Video…                    */
+#context-sendaudio,                   /* Email Audio…                    */
 /* #context-sep-setbackground,           /************ Separator ************/
 /* #context-inspect,                     /* Inspect (Q)                     */
 
