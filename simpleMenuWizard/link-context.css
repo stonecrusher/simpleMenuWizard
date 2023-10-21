@@ -19,8 +19,8 @@
 /* #context-copyemail,                     /* Copy Email Address               */
 /* #context-copylink,                      /* Copy Link                        */
 #context-sendlinktodevice,              /* Send Link to Device              */
-/* #context-sep-sendlinktodevice,          /************ Separator *************/
-/* #context-sep-copylink,                  /************ Separator *************/
+#context-sep-sendlinktodevice,          /************ Separator *************/
+#context-sep-copylink,                  /************ Separator *************/
 /* #context-searchselect,                  /* Search [Google] for "[selected]" */
 /* #frame-sep,                             /************ Separator *************/
 /* #context-inspect,                       /* Inspect (Q)                      */
