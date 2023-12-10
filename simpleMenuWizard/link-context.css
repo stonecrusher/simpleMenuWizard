@@ -18,6 +18,7 @@
 /* #context-savelinktopocket,              /* Save Link to Pocket              */
 /* #context-copyemail,                     /* Copy Email Address               */
 /* #context-copylink,                      /* Copy Link                        */
+/* #context-stripOnShareLink,              /* Copy Link Without Site Tracking  */
 /* #context-sendlinktodevice,              /* Send Link to Device              */
 /* #context-sep-sendlinktodevice,          /************ Separator *************/
 /* #context-sep-copylink,                  /************ Separator *************/
