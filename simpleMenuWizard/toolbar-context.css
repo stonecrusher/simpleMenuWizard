@@ -18,10 +18,17 @@
 /* #toolbar-context-menu .customize-context-moveToPanel,                 /* Pin to Overflow Menu   */
 /* #toolbar-context-menu #toolbar-context-autohide-downloads-button,     /* Hide Button When Empty */
 /* #toolbar-context-menu .customize-context-removeFromToolbar,           /* Remove from Toolbar    */
-/* #toolbar-context-reloadSelectedTab,                                   /* Reload Selected Tab    */
-/* #toolbar-context-bookmarkSelectedTab,                                 /* Bookmark Selected Tab  */
-/* #toolbar-context-selectAllTabs,                                       /* Select All Tabs        */
-/* #toolbar-context-undoCloseTab,                                        /* Reopen Closed Tab      */
+/* #toolbar-context-menu .customize-context-pinToToolbar,                /* Pin to Toolbar         */
+/* #toolbar-context-menu #toolbarDownloadsAnchorMenuSeparator,           /******* Seperator ********/
+/* #toolbar-context-menu #toolbar-context-always-open-downloads-panel,   /* Show Panel When Download Begins */
+/* #toolbar-context-menu #toolbar-context-openANewTab,                   /* New Tab                */
+/* #toolbar-context-menu #toolbarNavigatorItemsMenuSeparator,            /******* Seperator ********/
+/* #toolbar-context-menu #toolbar-context-reloadSelectedTab,             /* Reload Selected Tab    */
+/* #toolbar-context-menu #toolbar-context-reloadSelectedTabs,            /* Reload Selected Tabs   */
+/* #toolbar-context-menu #toolbar-context-bookmarkSelectedTab,           /* Bookmark Selected Tab… */
+/* #toolbar-context-menu #toolbar-context-bookmarkSelectedTabs,          /* Bookmark Selected Tabs… */
+/* #toolbar-context-menu #toolbar-context-selectAllTabs,                 /* Select All Tabs        */
+/* #toolbar-context-menu #toolbar-context-undoCloseTab,                  /* Reopen Closed Tab      */
 /* #toolbar-context-menu #toolbarItemsMenuSeparator,                     /******* Seperator ********/
 /* #toolbar-context-menu #toggle_toolbar-menubar,                        /* Menu Bar               */
 /* #toolbar-context-menu #toggle_PersonalToolbar,                        /* Bookmarks Toolbar      */
@@ -33,6 +40,8 @@
        menuitem[data-l10n-id="toolbar-context-menu-bookmarks-toolbar-never-show-2"],   /* Never Show             */
 /* #toolbar-context-menu #viewToolbarsMenuSeparator,                     /******* Seperator ********/
 /* #toolbar-context-menu #viewCustomizeToolbar,                          /* Customize Toolbar…     */
+/* #toolbar-context-menu .fullscreen-context-autohide,                   /* Hide Toolbars          */
+/* #toolbar-context-menu menuitem[data-l10n-id="full-screen-exit"],      /* Exit Fullscreen Mode   */
 
 #leave_this_dummy_here
     { display:none !important; }
