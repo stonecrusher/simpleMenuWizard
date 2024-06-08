@@ -18,6 +18,10 @@
 /* #toolbar-context-menu .customize-context-moveToPanel,                 /* Pin to Overflow Menu   */
 /* #toolbar-context-menu #toolbar-context-autohide-downloads-button,     /* Hide Button When Empty */
 /* #toolbar-context-menu .customize-context-removeFromToolbar,           /* Remove from Toolbar    */
+/* #toolbar-context-reloadSelectedTab,                                   /* Reload Selected Tab    */
+/* #toolbar-context-bookmarkSelectedTab,                                 /* Bookmark Selected Tab  */
+/* #toolbar-context-selectAllTabs,                                       /* Select All Tabs        */
+/* #toolbar-context-undoCloseTab,                                        /* Reopen Closed Tab      */
 /* #toolbar-context-menu #toolbarItemsMenuSeparator,                     /******* Seperator ********/
 /* #toolbar-context-menu #toggle_toolbar-menubar,                        /* Menu Bar               */
 /* #toolbar-context-menu #toggle_PersonalToolbar,                        /* Bookmarks Toolbar      */
