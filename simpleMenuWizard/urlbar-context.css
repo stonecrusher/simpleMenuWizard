@@ -8,16 +8,20 @@
 /*** urlbar-context.css ***/
 /*** When right-clicking on the addressbar ***/
 
-/* #urlbar menuitem[cmd="cmd_undo"],                    /* Undo          */
-/* #urlbar menuitem[cmd="cmd_redo"],                    /* Redo          */
-/* #urlbar menuitem[cmd="cmd_redo"] + menuseparator,    /* Separator     */
-/* #urlbar menuitem[cmd="cmd_cut"],                     /* Cut           */
-/* #urlbar menuitem[cmd="cmd_copy"],                    /* Copy          */
-/* #urlbar menuitem[cmd="cmd_paste"],                   /* Paste         */
-/* #urlbar menuitem[anonid="paste-and-go"],             /* Paste and Go  */
-/* #urlbar menuitem[cmd="cmd_delete"],                  /* Delete        */
-/* #urlbar menuitem[cmd="cmd_selectAll"],               /* Select All    */
-/* menuseparator.menuseparator-add-engine               /*** Separator ***/
+/* #urlbar menuitem[cmd="cmd_undo"],                    /* Undo                        */
+/* #urlbar menuitem[cmd="cmd_redo"],                    /* Redo                        */
+/* #urlbar menuitem[cmd="cmd_redo"] + menuseparator,    /* Separator                   */
+/* #urlbar menuitem[cmd="cmd_cut"],                     /* Cut                         */
+/* #urlbar menuitem[cmd="cmd_copy"],                    /* Copy                        */
+/* #urlbar menuitem[id="strip-on-share"],               /* Copy Without Site Tracking  */
+/* #urlbar menuitem[cmd="cmd_paste"],                   /* Paste                       */
+/* #urlbar menuitem[anonid="paste-and-go"],             /* Paste and Go                */
+/* #urlbar menuitem[cmd="cmd_delete"],                  /* Delete                      */
+/* #urlbar menuitem[cmd="cmd_selectAll"],               /* Select All                  */
+/* menuseparator.menuseparator-add-engine,              /********* Separator ***********/
+/* #urlbar menuitem[class$="context-menu-add-engine"],  /* 'Add search engine' entries */
+
+
 
 #leave_this_dummy_here
     { display:none !important; }
