@@ -9,11 +9,17 @@
 /*** When right-clicking on a tab ***/
 
 /* #tabContextMenu #context_openANewTab,                      /* New Tab                 */
-/* #tabContextMenu #context_openANewTab + menuseparator,      /******** Separator ********/
+/* #tabContextMenu #context_moveTabToNewGroup,                /* Add Tab to New Group    */
+/* #tabContextMenu #context_moveTabToGroup,                   /* Add Tab to Group        */
+/* #tabContextMenu #context_ungroupTab,                       /* Remove from Group       */
+/* #tabContextMenu #context_ungroupTab + menuseparator,       /******** Separator ********/
 /* #tabContextMenu #context_reloadTab,                        /* Reload Tab              */
 /* #tabContextMenu #context_reloadSelectedTabs,               /* Reload Tabs             */
+/* #tabContextMenu #context_playTab,                          /* Play Tab                */
+/* #tabContextMenu #context_playSelectedTabs,                 /* Play Tabs               */
 /* #tabContextMenu #context_toggleMuteTab,                    /* Mute / Unmute Tab       */
 /* #tabContextMenu #context_toggleMuteSelectedTabs,           /* Mute / Unmute Tabs      */
+/* #tabContextMenu #context_unloadTab,                        /* Unload Tab              */
 /* #tabContextMenu #context_pinTab,                           /* Pin Tab                 */
 /* #tabContextMenu #context_unpinTab,                         /* Unpin Tab               */
 /* #tabContextMenu #context_pinSelectedTabs,                  /* Pin Tabs                */
@@ -28,17 +34,20 @@
 /* #tabContextMenu #context_moveToEnd,                            /* Move to End             */
 /* #tabContextMenu #context_openTabInWindow,                      /* Move to New Window      */
 /* #tabContextMenu #context_sendTabToDevice,                  /* Send Tab to Device      */
-/* #tabContextMenu .share-tab-url-item,                       /* Share tab URL via 3rd party app */
 /* #tabContextMenu #context_reopenInContainer,                /* Reopen in Container     */
 /* #tabContextMenu #context_dummy,                                /* Send Tab to Device Submenu not yet supported */
 /* #tabContextMenu #context_selectAllTabs,                    /* Select All Tabs         */
 /* #tabContextMenu #context_selectAllTabs + menuseparator,    /******** Separator ********/
 /* #tabContextMenu #context_closeTab,                         /* Close Tab               */
+/* #tabContextMenu #context_closeDuplicateTabs,               /* Close Duplicate Tabs    */
 /* #tabContextMenu #context_closeTabOptions,                  /* Close Multiple Tabs     */
 /* #tabContextMenu #context_closeTabsToTheStart,                  /* Close Tabs to Left      */
 /* #tabContextMenu #context_closeTabsToTheEnd,                    /* Close Tabs to Right     */
 /* #tabContextMenu #context_closeOtherTabs,                       /* Close Other Tabs        */
 /* #tabContextMenu #context_undoCloseTab,                     /* Undo Close Tab          */
+/* #tabContextMenu #context_undoCloseTab + menuseparator,     /******** Separator ********/
+/* #tabContextMenu #context_fullscreenAutohide,               /* Hide Toolbars           */
+/* #tabContextMenu #context_fullscreenExit,                   /* Exit Full Screen Mode   */
 
 #leave_this_dummy_here
     { display:none !important; }
