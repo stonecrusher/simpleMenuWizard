@@ -29,7 +29,10 @@
 /* #toolbar-context-menu #toolbar-context-bookmarkSelectedTabs,          /* Bookmark Selected Tabs…         */
 /* #toolbar-context-menu #toolbar-context-selectAllTabs,                 /* Select All Tabs                 */
 /* #toolbar-context-menu #toolbar-context-undoCloseTab,                  /* Reopen Closed Tab               */
-/* #toolbar-context-menu #toolbarItemsMenuSeparator,                     /************ Seperator ************/
+/* #toolbar-context-menu #tabbarItemsMenuSeparator,                      /************ Seperator ************/
+/* #toolbar-context-menu #toolbar-context-customize-sidebar,             /* Customize Sidebar               */
+/* #toolbar-context-menu #toolbar-context-toggle-vertical-tabs,          /* Turn on Vertical Tabs           */
+/* #toolbar-context-menu #sidebarRevampSeparator,                        /************ Seperator ************/
 /* #toolbar-context-menu #toggle_toolbar-menubar,                        /* Menu Bar                        */
 /* #toolbar-context-menu #toggle_PersonalToolbar,                        /* Bookmarks Toolbar               */
 /* #toolbar-context-menu
